@@ -3,7 +3,7 @@ import styled from "styled-components";
 const SectionContatoStyle = styled.section`
   #contact {
     height: 100%;
-    margin-top: 1rem;
+    margin-top: 2rem;
     position: relative;
     overflow: hidden;
   }
@@ -27,6 +27,7 @@ const SectionContatoStyle = styled.section`
     transition: all 0.3s;
     padding: 8px 10px;
     border: 1px solid #e1e1e1;
+    color: #f50057;
   }
 
   .form-control:focus {
@@ -46,7 +47,10 @@ const SectionContatoStyle = styled.section`
     margin: 10px 22px;
     padding: 3px 55px;
     position: relative;
-    color: #555;
+    color: #e1e1e1;
+  }
+  .footer-right-contact .single-contact:hover {
+    color: #f50057;
   }
 
   .footer-right-contact .single-contact p {
@@ -54,12 +58,16 @@ const SectionContatoStyle = styled.section`
   }
 
   .footer-right-contact .single-contact p a {
-    color: #666;
+    text-decoration: none;
+    color: #e1e1e1;
+  }
+  .footer-right-contact .single-contact p a:hover {
+    color: #f50057;
   }
 
   .footer-right-contact .contact-icon {
     box-shadow: none;
-    color: #666;
+    color: #e1e1e1;
     border-radius: 50%;
     font-size: 20px;
     height: 40px;
@@ -79,13 +87,13 @@ const SectionContatoStyle = styled.section`
   .map {
     border: 0;
     border-radius: 0.2rem;
-    height: 450px;
+    height: 430px;
     width: 100%;
     transition: 0.3s ease-in;
   }
   @media (min-width: 990px) {
     #contact {
-      padding-left: 4rem;
+      padding-left: 10%;
       display: flex;
       justify-content: center;
       align-items: center;
