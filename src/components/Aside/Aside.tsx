@@ -1,5 +1,6 @@
+import { useEffect } from "react";
 import { SidebarStyle, ButtonNavStyle } from "./style";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import {
   FaTeamspeak,
   FaHubspot,
@@ -7,6 +8,7 @@ import {
   FaFacebookF,
   FaGithub,
   FaLinkedinIn,
+  FaProjectDiagram,
 } from "react-icons/fa";
 import useMedia from "../../Hooks/useMedia";
 import { useState } from "react";
@@ -14,6 +16,11 @@ import { useState } from "react";
 const Sidebar = () => {
   const mobile = useMedia("(max-width: 50rem)");
   const [mobileMenu, setMobileMenu] = useState(false);
+
+  const { pathname } = useLocation();
+  useEffect(() => {
+    setMobileMenu(false);
+  }, [pathname]);
 
   return (
     <>
@@ -50,6 +57,12 @@ const Sidebar = () => {
                   Habilidades
                 </span>
               </Link>
+              <Link className="nav-link px-2" to="/projetos">
+                <FaProjectDiagram />
+                <span className="ms-1 d-none d-sm-inline nav-iten">
+                  Projetos
+                </span>
+              </Link>
               <Link className="nav-link px-2" to="/contato">
                 <FaRegAddressBook />
                 <span className="ms-1 d-none d-sm-inline nav-iten">
@@ -60,21 +73,33 @@ const Sidebar = () => {
             </nav>
             <ul className="social-icons">
               <li>
-                <a href="https://linkedin.com/in/leoodaviid" target="_blank">
+                <a
+                  className="linkedin"
+                  href="https://linkedin.com/in/leoodaviid"
+                  target="_blank"
+                >
                   <i className="linkedin">
                     <FaLinkedinIn />
                   </i>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Leoodaviid" target="_blank">
+                <a
+                  className="github"
+                  href="https://github.com/Leoodaviid"
+                  target="_blank"
+                >
                   <i className="github">
                     <FaGithub />
                   </i>
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/Leoodaviid" target="_blank">
+                <a
+                  className="facebook"
+                  href="https://www.facebook.com/Leoodaviid"
+                  target="_blank"
+                >
                   <i className="facebook">
                     <FaFacebookF />
                   </i>
