@@ -12,7 +12,7 @@ const SectionProjetos = () => {
     <ProjetosStyle>
       <div id="portfolios">
         <div className="container">
-          <h2 className="section-title">My Remarkable Works</h2>
+          <h2 className="section-title">Projetos Pessoais</h2>
           <div className="row">
             <div className="col-md-12"></div>
             <div id="portfolio" className="row ">
