@@ -17,12 +17,14 @@ export const SidebarStyle = styled.aside`
   }
   .aside-wrapper {
     height: 100vh;
+    background-color: #191919;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
   }
   .asideWrapperMobile {
+    background-color: #191919;
     height: 40vh;
   }
   .logo-section {
@@ -33,7 +35,7 @@ export const SidebarStyle = styled.aside`
     align-items: center;
     flex-direction: column;
     background-color: #000;
-    color: #fff;
+    color: #e1e1e1;
   }
   .logoMobile {
     min-height: 11vh;
@@ -55,7 +57,7 @@ export const SidebarStyle = styled.aside`
   }
   .logo span {
     font-size: 1.7rem;
-    color: #fff;
+    color: #e1e1e1;
   }
   .logo-section > span {
     margin-top: 25px;
@@ -68,7 +70,7 @@ export const SidebarStyle = styled.aside`
     text-align: center;
     line-height: 3rem;
     text-decoration: none;
-    color: #fff;
+    color: #e1e1e1;
   }
   .nav-links a:hover {
     color: #f50057;
@@ -96,8 +98,8 @@ export const SidebarStyle = styled.aside`
   }
 
   .navMobileActive {
-    height: 17rem;
     transition: 0.3s;
+    height: 17rem;
     transform: initial;
     opacity: 1;
     pointer-events: initial;
@@ -105,6 +107,7 @@ export const SidebarStyle = styled.aside`
   }
 
   .social-icons {
+    background-color: #191919;
     width: 100%;
     height: 2rem;
     margin: 0;
@@ -120,7 +123,7 @@ export const SidebarStyle = styled.aside`
   }
   .social-icons li a {
     text-decoration: none;
-    color: #fff;
+    color: #e1e1e1;
   }
   .social-icons li a:hover {
     color: #f50057;
