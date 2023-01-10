@@ -62,7 +62,8 @@ const SectionSobreStyle = styled.section`
   }
 
   @media (max-width: 800px) {
-    #about {
+    .admin-profile {
+      padding: 0;
     }
   }
   @media (min-width: 990px) {
