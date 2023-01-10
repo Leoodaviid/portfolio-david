@@ -12,7 +12,7 @@ const StyleGlobal = createGlobalStyle`
 }
 body {
   font-family: sans-serif;
-  color: rgb(255, 255, 255);
+  color: #e1e1e1;
   background: rgb(29, 29, 29);
   overflow-x: hidden;
     -webkit-box-sizing: border-box;
@@ -51,13 +51,14 @@ li{
     background-color: #f50057;
     position: relative;
     z-index: 1;
+    color: #e1e1e1;
   }
   .submit-button {
   }
 
   .btn-common:hover {
-    color: #fff;
-    background-color: #dc1059;
+    background-color: #ff6088;
+    color: #000;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
