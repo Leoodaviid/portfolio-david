@@ -12,7 +12,6 @@ const SectionContato = () => {
                 <div className="contact-block">
                   <h2>Formulário para Contato</h2>
                   <form
-                    // id="contactForm"
                     action="https://formsubmit.co/david_ax7@hotmail.com"
                     method="POST"
                   >
@@ -104,7 +103,7 @@ const SectionContato = () => {
                         </i>
                       </div>
                       <p>
-                        <a href="#">david_ax7@hotmail.com</a>
+                        <a>david_ax7@hotmail.com</a>
                       </p>
                     </div>
                     <div className="single-contact">
@@ -114,7 +113,9 @@ const SectionContato = () => {
                         </i>
                       </div>
                       <p>
-                        <a href="#">+55 (88) 9.9704-1704</a>
+                        <a href="https://wa.me/88997041704">
+                          +55 (88) 9.9704-1704
+                        </a>
                       </p>
                     </div>
                   </div>
@@ -124,7 +125,7 @@ const SectionContato = () => {
                 <object
                   className="map"
                   data={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.277941892357!2d-38.472336349210984!3d-3.749532544318006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7463c0990ac23%3A0xee43ed1cd6d47841!2sAlameda%20Eliane%20L%C3%BAcia%2C%20139%20-%20Cidade%202000%2C%20Fortaleza%20-%20CE%2C%2060190-150!5e0!3m2!1spt-BR!2sbr!4v1673194134594!5m2!1spt-BR!2sbr`}
-                ></object>
+                />
               </div>
             </div>
           </div>
