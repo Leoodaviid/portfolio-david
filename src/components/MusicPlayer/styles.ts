@@ -47,13 +47,4 @@ export const HeaderStyle = styled.div`
   .btns-container .fas:nth-child(2) {
     display: none;
   }
-  /* @media screen and (min-width: 800px) {
-    .header {
-      justify-content: flex-end;
-      align-items: flex-end;
-    }
-    .btns-container {
-      display: none;
-    }
-  } */
 `;
