@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { FaSoundcloud } from "react-icons/fa";
-import MyMusic from "../../assets/audio/pistelli.mp3";
+import MyMusic from "../../assets/audio/Eminem.mp3";
 import { HeaderStyle } from "./styles";
 
 const MusicPlayer = () => {
