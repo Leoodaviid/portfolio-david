@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { FaSoundcloud } from "react-icons/fa";
+import { FaMusic } from "react-icons/fa";
 import MyMusic from "../../assets/audio/Eminem.mp3";
 import { HeaderStyle } from "./styles";
 
@@ -30,7 +30,7 @@ const MusicPlayer = () => {
                 player ? "soundCloud" : "soundCloudActive"
               }`}
             >
-              <FaSoundcloud />
+              <FaMusic />
             </i>
             <span>Sound</span>
             <div className="on-off">
