@@ -7,71 +7,71 @@ const SectionContatoStyle = styled.section`
     position: relative;
     overflow: hidden;
   }
-
   .contact-form-area h2 {
-    font-size: 18px;
+    font-size: 1.12rem;
     text-transform: uppercase;
   }
-
   #contact #contactForm {
     margin-top: 1rem;
   }
-
   .form-control {
     width: 100%;
-    margin-bottom: 20px;
-    font-size: 14px;
+    margin-bottom: 1.25rem;
+    font-size: 0.87rem;
     border-radius: 0.2rem;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    padding: 8px 10px;
+    padding: 0.5rem 0.6rem;
     border: 1px solid #e1e1e1;
     color: #f50057;
   }
-
   .form-control:focus {
     box-shadow: none;
     outline: none;
+    color: #f50057;
   }
   .footer-right-contact {
-    padding: 4px;
+    padding: 0.25rem 0;
     box-shadow: none;
-    margin-top: 30px;
   }
   .footer-right-contact:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
   }
-
   .footer-right-contact .single-contact {
-    margin: 10px 22px;
-    padding: 3px 55px;
+    margin: 0.6rem 0;
+    padding: 0.18rem 3rem;
     position: relative;
     color: #e1e1e1;
   }
-  .footer-right-contact .single-contact:hover {
-    color: #f50057;
+  .footer-right-area {
+    margin-bottom: 1rem;
   }
-
-  .footer-right-contact .single-contact p {
-    margin-bottom: 5px;
+  .single-contact {
+    padding-left: 0;
+  }
+  .single-contact p {
+    padding-top: 0.3rem;
+    margin: 0.4rem 0 0rem;
   }
 
   .footer-right-contact .single-contact p a {
     text-decoration: none;
     color: #e1e1e1;
   }
-  .footer-right-contact .single-contact p a:hover {
+  #wpp-contato {
+    color: #e1e1e1;
+  }
+  #wpp-contato:hover {
     color: #f50057;
   }
-
   .footer-right-contact .contact-icon {
     box-shadow: none;
     color: #e1e1e1;
     border-radius: 50%;
     font-size: 20px;
-    height: 40px;
-    left: 0;
+    height: 2.5rem;
+    left: -8px;
     padding-top: 8px;
     position: absolute;
     text-align: center;
@@ -82,14 +82,13 @@ const SectionContatoStyle = styled.section`
   }
   .footer-right-contact .contact-icon:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-    color: #f50057;
   }
   .map {
     border: 0;
     border-radius: 0.2rem;
-    height: 430px;
+    height: 26.8rem;
     width: 100%;
-    transition: 0.3s ease-in;
+    transition: all;
   }
   @media (min-width: 990px) {
     #contact {
