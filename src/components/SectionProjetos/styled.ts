@@ -27,8 +27,9 @@ const ProjetosStyle = styled.section`
   .shot-item {
     margin-right: 15px;
     border-radius: 0.2rem;
-    background: #fff;
+    background: transparent;
     position: relative;
+    transition: all;
   }
 
   .shot-item img {
