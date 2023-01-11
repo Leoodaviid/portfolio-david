@@ -16,7 +16,7 @@ export const SectionHomeStyle = styled.section`
   .text-zone h1::before {
     content: "<h1>";
     position: absolute;
-    top: -80px;
+    top: -70px;
     left: -10px;
     font-size: 1.2rem;
     font-family: "La Belle Aurore", cursive;
