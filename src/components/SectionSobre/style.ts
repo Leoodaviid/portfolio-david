@@ -37,6 +37,9 @@ const SectionSobreStyle = styled.section`
     position: relative;
     margin: 1.25rem 0 1.25rem 0;
   }
+  .admin-profile {
+    padding: 0;
+  }
 
   .about-profile .pro-title {
     font-weight: 700;
@@ -59,12 +62,6 @@ const SectionSobreStyle = styled.section`
     position: absolute;
     right: 2.8rem;
     bottom: 0.6rem;
-  }
-
-  @media (max-width: 800px) {
-    .admin-profile {
-      padding: 0;
-    }
   }
   @media (min-width: 990px) {
     #about {
