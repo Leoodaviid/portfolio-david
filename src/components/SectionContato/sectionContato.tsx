@@ -42,6 +42,7 @@ const SectionContato = () => {
                             placeholder="E-mail"
                             id="email"
                             name="email"
+                            required
                           />
                         </div>
                       </div>
@@ -53,6 +54,7 @@ const SectionContato = () => {
                             name="subject"
                             placeholder="Assunto"
                             id="msg_subject"
+                            required
                           />
                         </div>
                       </div>
@@ -64,6 +66,7 @@ const SectionContato = () => {
                             name="message"
                             placeholder="Sua Menssagem"
                             rows={5}
+                            required
                           ></textarea>
                         </div>
                         <div className="submit-button">
