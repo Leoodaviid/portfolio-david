@@ -116,7 +116,11 @@ const SectionContato = () => {
                         </i>
                       </div>
                       <p>
-                        <a href="https://wa.me/88997041704">
+                        <a
+                          id="wpp-contato"
+                          href="https://wa.me/88997041704"
+                          target="_blank"
+                        >
                           +55 (88) 9.9704-1704
                         </a>
                       </p>
