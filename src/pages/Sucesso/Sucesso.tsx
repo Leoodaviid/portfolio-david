@@ -1,7 +1,12 @@
 import React from "react";
+import MsgSucesso from "../../components/MsgSucesso/MsgSucesso";
 
 const Sucesso = () => {
-  return <div>deu certo o envio do e-mail</div>;
+  return (
+    <>
+      <MsgSucesso />
+    </>
+  );
 };
 
 export default Sucesso;
