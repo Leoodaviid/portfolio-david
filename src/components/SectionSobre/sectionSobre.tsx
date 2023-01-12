@@ -68,10 +68,10 @@ const SectionSobre = () => {
                     </ul>
                   </div>
                   <Link to={`/contato`} className="btn btn-common">
+                    Entre em Contato
                     <i className="icon-speech">
                       <FaRegEnvelope />
                     </i>{" "}
-                    Entre em Contato
                   </Link>
                 </div>
               </div>

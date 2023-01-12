@@ -28,11 +28,14 @@ const SectionSobreStyle = styled.section`
     margin: 0.6rem 0.6rem 0 0;
   }
 
-  .profile-wrapper .btn i {
+  .profile-wrapper {
     vertical-align: middle;
     margin-right: 0.3rem;
   }
-
+  .icon-speech svg {
+    width: 17px;
+    margin: 0px 0px 2px 5px;
+  }
   .about-profile {
     position: relative;
     margin: 1.25rem 0 1.25rem 0;
