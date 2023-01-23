@@ -8,7 +8,7 @@
 
 ​    
 
-<h5> ❗Como rodar a sua máquina?:</h5>
+<h5> ❗Como rodar na sua máquina?:</h5>
 
     - npm install
     - npm start
