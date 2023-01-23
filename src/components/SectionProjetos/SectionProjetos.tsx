@@ -55,7 +55,7 @@ const SectionProjetos = () => {
                       <div className="icons">
                         <a
                           className="lightbox preview"
-                          href="dog-leoodaviid.vercel.app/"
+                          href="https://dog-leoodaviid.vercel.app/"
                           target="_blank"
                           rel="noreferrer"
                         >
