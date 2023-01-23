@@ -26,6 +26,7 @@ const SectionProjetos = () => {
                           className="lightbox preview"
                           href="https://leoodaviid.github.io/Caravan/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-eye">
                             <FaEye />
@@ -35,6 +36,7 @@ const SectionProjetos = () => {
                           className="link"
                           href="https://github.com/Leoodaviid/Caravan"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-link">
                             <FaLink />
@@ -53,13 +55,20 @@ const SectionProjetos = () => {
                       <div className="icons">
                         <a
                           className="lightbox preview"
-                          href="assets/img/gallery/img-2.jpg"
+                          href="dog-leoodaviid.vercel.app/"
+                          target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-eye">
                             <FaEye />
                           </i>
                         </a>
-                        <a className="link" href="#">
+                        <a
+                          className="link"
+                          href="https://github.com/Leoodaviid/dog"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <i className="icon-link">
                             <FaLink />
                           </i>
@@ -88,6 +97,7 @@ const SectionProjetos = () => {
                           className="link"
                           href="https://github.com/Leoodaviid/DinDin"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-link">
                             <FaLink />
@@ -108,6 +118,7 @@ const SectionProjetos = () => {
                           className="lightbox preview"
                           href="https://leoodaviid.github.io/Mini-Projeto-Contador/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-eye">
                             <FaEye />
@@ -117,6 +128,7 @@ const SectionProjetos = () => {
                           className="link"
                           href="https://github.com/Leoodaviid/Mini-Projeto-Contador"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-link">
                             <FaLink />
@@ -137,6 +149,7 @@ const SectionProjetos = () => {
                           className="lightbox preview"
                           href="https://leoodaviid.github.io/Lista-Compras/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-eye">
                             <FaEye />
@@ -146,6 +159,7 @@ const SectionProjetos = () => {
                           className="link"
                           href="https://github.com/Leoodaviid/Lista-Compras"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-link">
                             <FaLink />
@@ -166,6 +180,7 @@ const SectionProjetos = () => {
                           className="lightbox preview"
                           href="https://leoodaviid.github.io/calculo-simples-aritimetica/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-eye">
                             <FaEye />
@@ -175,6 +190,7 @@ const SectionProjetos = () => {
                           className="link"
                           href="https://github.com/Leoodaviid/calculo-simples-aritimetica"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-link">
                             <FaLink />
