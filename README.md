@@ -4,14 +4,25 @@
 
 <h5>📌Sobre:</h5>  
 
-<h6>Portfólio criado com o intuito de expressar um pouco dos meus conhecimentos adiquiridos ate o momento.<h6>
-
-​    
+<h6>Portfólio criado com React, usando seus principais hooks, useState, useEffect, useRef, useMedia. Para estilização foi usado styled Components. E controle de rotas com React Router Dom.   <h6>
 
 <h5> ❗Como rodar na sua máquina?:</h5>
 
-    - npm install
-    - npm start
+<ul>
+    <li>npm install</li>
+    <li>npm start</li>
+</ul>
+
+
+
+<h5>❗Melhorias futuras:</h5>
+
+<ul> 
+    <li>Implementar os títulos principais de cada página com useLocation para uma renderização mais performática.</li>
+    <li>Incluir biblioteca de animações</li>
+    <li>Criar custom hook para validação do formulário</li>
+    <li>Criar input como componente</li>
+</ul>
 
 
 
