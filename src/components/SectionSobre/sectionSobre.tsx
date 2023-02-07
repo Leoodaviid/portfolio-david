@@ -23,19 +23,19 @@ const SectionSobre = () => {
                     programação foi em 2013, quando estava concluindo meu ensino
                     médio. Apesar de ter gostado do universo que a tecnologia
                     proporcionava, só começei a dar o devido foco no final do
-                    ano de 2021. <br />
-                    Então por questões financeiras, meu pc queimou a placa mãe,
-                    e assim demorei a ter um novo pc que suprisse minhas
-                    necessidades diárias e ao mesmo tempo trabalhava para ajudar
-                    em casa e conquistar o que almejava. Nesse tempo tive muito
-                    apoio de familiares, namorada e de um amigo que tenho como
-                    irmão, formado na aréa de TI.
+                    ano de 2021 devido meu pc ter queimado e por questões
+                    financeiras demorei a ter um novo pc que suprisse minhas
+                    necessidades diárias. <br />
+                    Nesse período trabalhava para ajudar em casa e conquistar o
+                    que almejava e ao mesmo tempo tive muito apoio de
+                    familiares, namorada e de um amigo que tenho como irmão,
+                    formado na aréa de TI.
                     <br />
-                    Hoje já estou bem "aguçado" nas tecnologias voltadas para o
-                    Front-End, a cada dia me aperfeiçoando e ampliando meus
-                    conhecimentos e os tornando mais sólidos, em busca da tão
-                    sonhada transição de carreira para a área de tecnologia como
-                    desenvolvedor Front-End.
+                    Hoje possuo total domínio das tecnologias voltadas para o
+                    Front-End, e a cada dia estou me aperfeiçoando e ampliando
+                    meus conhecimentos os tornando mais sólidos e correndo atrás
+                    da tão sonhada imersão pra área de tecnologia como
+                    desenvolvedor.
                   </p>
                   <div className="about-profile">
                     <ul className="admin-profile">
