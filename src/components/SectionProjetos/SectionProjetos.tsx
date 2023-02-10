@@ -3,6 +3,7 @@ import { ProjetosStyle } from "./styled";
 import Caravan from "../../assets/images/caravan.png";
 import Dogs from "../../assets/images/dogs.png";
 import Dindin from "../../assets/images/dindin.png";
+import LaParrilla from "../../assets/images/Parrilla-food-commerce.png";
 import Contador from "../../assets/images/contador.png";
 import Compras from "../../assets/images/lista-compras.png";
 import Media from "../../assets/images/media.png";
@@ -66,6 +67,39 @@ const SectionProjetos = () => {
                         <a
                           className="link"
                           href="https://github.com/Leoodaviid/dog"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="icon-link">
+                            <FaLink />
+                          </i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+                <div className="portfolio-item">
+                  <div className="shot-item">
+                    <img
+                      src={LaParrilla}
+                      alt="Interface LaParrilla-food-commerce"
+                    />
+                    <div className="overlay">
+                      <div className="icons">
+                        <a
+                          className="lightbox preview"
+                          href=" https://github.com/Leoodaviid/laparrilla"
+                          target="_blank"
+                        >
+                          <i className="icon-eye">
+                            <FaEye />
+                          </i>
+                        </a>
+                        <a
+                          className="link"
+                          href="https://github.com/Leoodaviid/laparrilla"
                           target="_blank"
                           rel="noreferrer"
                         >
