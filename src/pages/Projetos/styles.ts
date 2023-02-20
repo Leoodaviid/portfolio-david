@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ProjetosStyle = styled.section`
+const Section = styled.section`
   #portfolios {
     background: transparent;
     margin-top: 2rem;
@@ -124,4 +124,4 @@ const ProjetosStyle = styled.section`
     }
   }
 `;
-export { ProjetosStyle };
+export { Section };

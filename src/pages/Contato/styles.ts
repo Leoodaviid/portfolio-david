@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SectionContatoStyle = styled.section`
+const Section = styled.section`
   #contact {
     height: 100%;
     margin-top: 2rem;
@@ -99,4 +99,4 @@ const SectionContatoStyle = styled.section`
     }
   }
 `;
-export { SectionContatoStyle };
+export { Section };

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SectionSobreStyle = styled.section`
+export const Section = styled.section`
   #about {
     height: 100%;
     display: flex;
@@ -72,4 +72,3 @@ const SectionSobreStyle = styled.section`
     }
   } ;
 `;
-export { SectionSobreStyle };

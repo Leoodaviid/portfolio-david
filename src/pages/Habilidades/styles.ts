@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SectionHabilidadesStyle = styled.section`
+const Section = styled.section`
   .timeline {
     position: relative;
   }
@@ -109,4 +109,4 @@ const SectionHabilidadesStyle = styled.section`
   }
 `;
 
-export { SectionHabilidadesStyle };
+export { Section };

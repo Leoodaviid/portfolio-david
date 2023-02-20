@@ -43,10 +43,6 @@ li{
     padding: 2rem 3.5rem 0.5rem 3.5rem;
     
   }
-  /* .contact-form-area:hover{
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-    
-  } */
   .btn-common {
     background-color: #f50057;
     position: relative;

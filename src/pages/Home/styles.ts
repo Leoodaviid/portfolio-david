@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SectionHomeStyle = styled.section`
+export const Section = styled.section`
   .section-home {
     height: 90vh;
     display: flex;
