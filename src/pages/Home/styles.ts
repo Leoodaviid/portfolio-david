@@ -16,21 +16,21 @@ export const Section = styled.section`
   .text-zone h1::before {
     content: "<h1>";
     position: absolute;
-    top: -70px;
+    top: -65px;
     left: -10px;
     font-size: 1.2rem;
     font-family: "La Belle Aurore", cursive;
-    color: #666565;
+    color: ${({ theme }) => theme.colors.gray600};
     letter-spacing: 3px;
   }
   .text-zone h1::after {
     content: "</h1>";
     position: absolute;
     bottom: -10px;
-    right: -70px;
+    right: -75px;
     font-size: 1.2rem;
     font-family: "La Belle Aurore", cursive;
-    color: #666565;
+    color: ${({ theme }) => theme.colors.gray600};
     letter-spacing: 3px;
   }
   .text-zone img {
@@ -39,9 +39,9 @@ export const Section = styled.section`
   }
   .text-zone .gray-text {
     margin-top: 30px;
-    color: #a2a2a3;
+    color: ${({ theme }) => theme.colors.gray500};
     letter-spacing: 3px;
-    font-size: 14px;
+    font-size: ${({ theme }) => theme.fontSize.md};
     position: relative;
   }
   #section-home {

@@ -46,7 +46,7 @@ export const Section = styled.section`
 
   .about-profile .pro-title {
     font-weight: 700;
-    color: #e1e1e1;
+    color: ${({ theme }) => theme.colors.gray300};
     position: relative;
     width: 120px;
     display: inline-block;
@@ -56,7 +56,7 @@ export const Section = styled.section`
   .about-profile .pro-title:after {
     position: absolute;
     content: ":";
-    color: #f50057;
+    color: ${({ theme }) => theme.colors.gray300};
     font-size: 0.8rem;
     left: 4.8rem;
   }

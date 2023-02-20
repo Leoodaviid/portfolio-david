@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { SidebarStyle, ButtonNavStyle } from "./style";
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import {
   FaTeamspeak,
   FaHubspot,
@@ -41,34 +41,34 @@ const Sidebar = () => {
         >
           <div className={`${mobile ? "asideWrapperMobile" : "aside-wrapper"}`}>
             <div className={`${mobile ? "logoMobile" : "logo-section "}`}>
-              <Link to={"/"} className="logo">
+              <NavLink to={"/"} className="logo">
                 <span>David</span>
-              </Link>
+              </NavLink>
               <span>Front-End</span>
             </div>
             <nav className="nav-links">
-              <Link className="nav-link px-2 " to="/sobre">
+              <NavLink className="nav-link px-2 " to="/sobre">
                 <FaTeamspeak />
                 <span className="ms-1 d-none d-sm-inline nav-iten">Sobre</span>
-              </Link>
-              <Link className="nav-link px-2" to="/habilidades">
+              </NavLink>
+              <NavLink className="nav-link px-2" to="/habilidades">
                 <FaHubspot />
                 <span className="ms-1 d-none d-sm-inline nav-iten">
                   Habilidades
                 </span>
-              </Link>
-              <Link className="nav-link px-2" to="/projetos">
+              </NavLink>
+              <NavLink className="nav-link px-2" to="/projetos">
                 <FaProjectDiagram />
                 <span className="ms-1 d-none d-sm-inline nav-iten">
                   Projetos
                 </span>
-              </Link>
-              <Link className="nav-link px-2" to="/contato">
+              </NavLink>
+              <NavLink className="nav-link px-2" to="/contato">
                 <FaRegAddressBook />
                 <span className="ms-1 d-none d-sm-inline nav-iten">
                   Contato
                 </span>
-              </Link>
+              </NavLink>
               <a />
             </nav>
             <ul className="social-icons">
@@ -77,6 +77,7 @@ const Sidebar = () => {
                   className="linkedin"
                   href="https://linkedin.com/in/leoodaviid"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="linkedin">
                     <FaLinkedinIn />
@@ -88,6 +89,7 @@ const Sidebar = () => {
                   className="github"
                   href="https://github.com/Leoodaviid"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="github">
                     <FaGithub />
@@ -99,6 +101,7 @@ const Sidebar = () => {
                   className="facebook"
                   href="https://www.facebook.com/Leoodaviid"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="facebook">
                     <FaFacebookF />

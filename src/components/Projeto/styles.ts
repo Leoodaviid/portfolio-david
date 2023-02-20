@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { darken } from "polished";
 
 const Container = styled.div`
   .portfolio-item .shot-item {
@@ -36,25 +37,17 @@ const Container = styled.div`
     height: 100%;
     left: 0;
     top: 0;
-    background: #19191970;
+    background: ${darken(0.1, "#19191970")};
     opacity: 0;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-  }
-
-  .shot-item:hover .overlay {
-    opacity: 1;
-  }
-
-  .overlay {
-    opacity: 0;
   }
 
   .overlay .icons i {
     height: 42px;
     width: 42px;
     line-height: 42px;
-    color: #f50057;
+    color: ${({ theme }) => theme.colors.pink};
     left: 50%;
     margin-left: -24px;
     margin-top: -24px;
@@ -75,7 +68,7 @@ const Container = styled.div`
     position: absolute;
     left: 45%;
     top: 50%;
-    color: #fff;
+    color: ${({ theme }) => theme.colors.gray300};
   }
 
   .overlay .link {
@@ -83,20 +76,10 @@ const Container = styled.div`
     left: 60%;
     margin-left: 10px;
     top: 50%;
-    color: #fff;
   }
 
   .shot-item:hover .overlay {
     opacity: 1;
-  }
-
-  a:not([href]):not([tabindex]) {
-    color: #fff;
-  }
-
-  a:not([href]):not([tabindex]):focus,
-  a:not([href]):not([tabindex]):hover {
-    color: #fff;
   }
 `;
 

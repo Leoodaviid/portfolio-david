@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { darken } from "polished";
 
 const StyleGlobal = createGlobalStyle`
 
@@ -12,8 +13,8 @@ const StyleGlobal = createGlobalStyle`
 }
 body {
   font-family: sans-serif;
-  color: #e1e1e1;
-  background: rgb(29, 29, 29);
+  color: ${({ theme }) => theme.colors.gray300};
+  background: ${({ theme }) => theme.colors.primary};
   overflow-x: hidden;
     -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -44,18 +45,17 @@ li{
     
   }
   .btn-common {
-    background-color: #f50057;
+    background-color: ${({ theme }) => theme.colors.pink};
     position: relative;
     z-index: 1;
-    color: #e1e1e1;
+    color: ${({ theme }) => theme.colors.white}
   }
   .submit-button {
   }
 
   .btn-common:hover {
-    background-color: #ff6088;
-    color: #000;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    background-color: ${darken(0.1, "#f50057")};
+    color: ${({ theme }) => theme.colors.black};
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;

@@ -23,26 +23,24 @@ const Section = styled.section`
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     padding: 0.5rem 0.6rem;
-    border: 1px solid #e1e1e1;
-    color: #f50057;
+    border: 1px solid ${({ theme }) => theme.colors.gray300};
+    color: ${({ theme }) => theme.colors.pink};
   }
   .form-control:focus {
     box-shadow: none;
     outline: none;
-    color: #f50057;
+    color: ${({ theme }) => theme.colors.pink};
   }
   .footer-right-contact {
     padding: 0.25rem 0;
     box-shadow: none;
   }
-  .footer-right-contact:hover {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  }
+
   .footer-right-contact .single-contact {
     margin: 0.6rem 0;
     padding: 0.18rem 3rem;
     position: relative;
-    color: #e1e1e1;
+    color: ${({ theme }) => theme.colors.gray300};
   }
   .footer-right-area {
     margin-bottom: 1rem;
@@ -57,17 +55,17 @@ const Section = styled.section`
 
   .footer-right-contact .single-contact p a {
     text-decoration: none;
-    color: #e1e1e1;
+    color: ${({ theme }) => theme.colors.gray300};
   }
   #wpp-contato {
-    color: #e1e1e1;
+    color: ${({ theme }) => theme.colors.gray300};
   }
   #wpp-contato:hover {
-    color: #f50057;
+    color: ${({ theme }) => theme.colors.pink};
   }
   .footer-right-contact .contact-icon {
     box-shadow: none;
-    color: #e1e1e1;
+    color: ${({ theme }) => theme.colors.gray300};
     border-radius: 50%;
     font-size: 20px;
     height: 2.5rem;

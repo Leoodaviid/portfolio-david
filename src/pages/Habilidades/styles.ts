@@ -23,7 +23,7 @@ const Section = styled.section`
   }
   .timeline li .content-text:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 1.9);
-    color: #f50057;
+    color: ${({ theme }) => theme.colors.pink};
   }
 
   .timeline li .line-title {
@@ -38,7 +38,7 @@ const Section = styled.section`
   }
 
   .timeline li .line-text {
-    color: #888;
+    color: ${({ theme }) => theme.colors.gray500};
     line-height: 1.12rem;
   }
   .line-text {
@@ -70,7 +70,7 @@ const Section = styled.section`
     display: block;
     position: absolute;
     margin-top: 1.12rem;
-    border-color: #f50057 !important;
+    border-color: ${({ theme }) => theme.colors.pink} !important;
   }
 
   .timeline li:first-child i {
@@ -80,8 +80,8 @@ const Section = styled.section`
     line-height: 3.12rem;
     border-radius: 1.87rem;
     margin: -0.75rem -3.44rem;
-    background: #f50057;
-    color: #fff;
+    background: ${({ theme }) => theme.colors.pink};
+    color: ${({ theme }) => theme.colors.white};
     width: 3.12rem;
     height: 3.12rem;
     text-align: center;

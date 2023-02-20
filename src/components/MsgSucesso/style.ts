@@ -14,7 +14,7 @@ const MsgStyled = styled.div`
     left: -10px;
     font-size: 1.2rem;
     font-family: "La Belle Aurore", cursive;
-    color: #666565;
+    color: ${({ theme }) => theme.colors.gray600};
     letter-spacing: 3px;
   }
   .text-zone::after {
@@ -24,7 +24,7 @@ const MsgStyled = styled.div`
     right: -70px;
     font-size: 1.2rem;
     font-family: "La Belle Aurore", cursive;
-    color: #666565;
+    color: ${({ theme }) => theme.colors.gray600};
     letter-spacing: 3px;
   }
   .section-text {

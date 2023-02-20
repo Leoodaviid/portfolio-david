@@ -8,7 +8,7 @@ export const SidebarStyle = styled.aside`
     top: 0;
     left: 0;
     overflow: visible;
-    background-color: #191919;
+    background-color: ${({ theme }) => theme.colors.gray900};
     z-index: 1;
   }
   .show-nav {
@@ -17,14 +17,14 @@ export const SidebarStyle = styled.aside`
   }
   .aside-wrapper {
     height: 100vh;
-    background-color: #191919;
+    background-color: ${({ theme }) => theme.colors.gray900};
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
   }
   .asideWrapperMobile {
-    background-color: #191919;
+    background-color: ${({ theme }) => theme.colors.gray900};
     height: 40vh;
   }
   .logo-section {
@@ -34,8 +34,8 @@ export const SidebarStyle = styled.aside`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #000;
-    color: #e1e1e1;
+    background-color: ${({ theme }) => theme.colors.black};
+    color: ${({ theme }) => theme.colors.gray300};
   }
   .logoMobile {
     min-height: 11vh;
@@ -44,20 +44,17 @@ export const SidebarStyle = styled.aside`
     justify-items: center;
     align-items: center;
     padding: 0.2rem;
-    background-color: #000;
+    background-color: ${({ theme }) => theme.colors.black};
   }
   .logo {
     display: grid;
     place-items: center;
     text-decoration: none;
   }
-  .logo img {
-    width: 50px;
-    height: auto;
-  }
+
   .logo span {
     font-size: 1.7rem;
-    color: #e1e1e1;
+    color: ${({ theme }) => theme.colors.gray300};
   }
   .logo-section > span {
     margin-top: 25px;
@@ -70,10 +67,10 @@ export const SidebarStyle = styled.aside`
     text-align: center;
     line-height: 3rem;
     text-decoration: none;
-    color: #e1e1e1;
+    color: ${({ theme }) => theme.colors.gray300};
   }
   .nav-links a:hover {
-    color: #f50057;
+    color: ${({ theme }) => theme.colors.pink};
   }
   .nav-links a::before {
     content: "";
@@ -81,7 +78,7 @@ export const SidebarStyle = styled.aside`
     height: 1px;
     position: absolute;
     left: 0;
-    background-color: #2d2d2e;
+    background-color: ${({ theme }) => theme.colors.gray700};
   }
   .navMobile {
     display: block;
@@ -89,7 +86,7 @@ export const SidebarStyle = styled.aside`
     height: 40vh;
     width: 50vw;
     padding: 0;
-    background: #191919;
+    background: ${({ theme }) => theme.colors.gray900};
     box-shadow: 0 0px 30px rgba(0, 0, 0, 1.9);
     border-radius: 0.2rem;
     transform: translateX(-10px);
@@ -107,7 +104,7 @@ export const SidebarStyle = styled.aside`
   }
 
   .social-icons {
-    background-color: #191919;
+    background-color: ${({ theme }) => theme.colors.gray900};
     width: 100%;
     height: 2rem;
     margin: 0;
@@ -123,17 +120,17 @@ export const SidebarStyle = styled.aside`
   }
   .social-icons li a {
     text-decoration: none;
-    color: #e1e1e1;
+    color: ${({ theme }) => theme.colors.gray300};
   }
   .social-icons li a:hover {
-    color: #f50057;
+    color: ${({ theme }) => theme.colors.pink};
   }
 `;
 export const ButtonNavStyle = styled.menu`
   .mobileButton {
-    background: #191919;
+    background: ${({ theme }) => theme.colors.gray900};
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9);
-    color: #f50057;
+    color: ${({ theme }) => theme.colors.pink};
     border-radius: 0.2rem;
     height: 40px;
     width: 40px;
@@ -160,8 +157,8 @@ export const ButtonNavStyle = styled.menu`
   .mobileButton:hover,
   .mobileButtonActive {
     outline: none;
-    background: #191919;
-    color: #f50057;
+    background: ${({ theme }) => theme.colors.gray900};
+    color: ${({ theme }) => theme.colors.pink};
   }
   .mobileButtonActive::after {
     transform: rotate(90deg);
