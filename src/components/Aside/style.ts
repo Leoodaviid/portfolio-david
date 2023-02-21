@@ -80,6 +80,11 @@ export const SidebarStyle = styled.aside`
     left: 0;
     background-color: ${({ theme }) => theme.colors.gray700};
   }
+  .nav-link.px-2 {
+    &.active {
+      color: ${({ theme }) => theme.colors.pink};
+    }
+  }
   .navMobile {
     display: block;
     position: absolute;
