@@ -8,7 +8,7 @@ interface ProjetoProps {
 }
 const Projeto = ({ img, alt, preview, repository }: ProjetoProps) => {
   return (
-    <Container className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+    <Container>
       <div className="portfolio-item">
         <div className="shot-item">
           <img src={img} alt={alt} />
