@@ -1,29 +1,15 @@
 import styled from "styled-components";
 
 const Section = styled.section`
-  #portfolios {
-    background: transparent;
-    margin-top: 2rem;
+  padding: 0 1rem 1rem 11%;
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 1rem;
   }
 
-  #portfolios .mix {
-    padding: 10px;
-  }
-
-  @media (min-width: 990px) {
-  }
-  #portfolios {
-    padding-left: 10%;
-  }
-
-  @media (max-width: 800px) {
-    #portfolios {
-      padding-left: 0%;
-    }
-    #portfolio {
-      margin: 0;
-      padding: 0.5rem;
-    }
+  @media (max-width: 50rem) {
+    padding: 1rem;
   }
 `;
 export { Section };
