@@ -1,112 +1,102 @@
 import styled from "styled-components";
 
-const Section = styled.section`
-  .timeline {
-    position: relative;
-  }
-  .timeline .timelin-title {
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-left: 2.2rem;
-  }
+const Container = styled.div`
+  max-width: 100%;
+  padding: 0 1rem 1rem 11%;
 
-  .timeline li {
-    padding: 0 1.25rem 1.25rem 1.87rem;
-    list-style: none;
-    border-left: 3px solid black;
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 1rem;
   }
-
-  .timeline li .content-text {
-    box-shadow: none;
-    border-radius: 0.2rem;
-    padding: 20px;
-  }
-  .timeline li .content-text:hover {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 1.9);
-    color: ${({ theme }) => theme.colors.pink};
-  }
-
-  .timeline li .line-title {
-    font-size: 1rem;
-    line-height: 0.37rem;
-  }
-
-  .timeline li span {
-    font-size: 0.75rem;
-    padding: 0.56rem 0;
-    display: block;
-  }
-
-  .timeline li .line-text {
+  .card {
+    background: ${({ theme }) => theme.colors.gray800};
     color: ${({ theme }) => theme.colors.gray500};
-    line-height: 1.12rem;
+    padding: 1.5rem;
+    overflow: hidden;
+    border-radius: 0.8rem;
   }
-  .line-text {
-    margin: 0.5rem 0 0.5rem;
+  .card-title-large {
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
+    color: ${({ theme }) => theme.colors.gray900};
+    transform: translateX(7rem);
+    transition: transform 2.5s;
   }
-
-  .timeline li:first-child:before {
-    border: 0;
-    background: none;
-    position: relative;
+  .card-title-small {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
-
-  .timeline li:last-child {
-    padding: 0 1.25rem 0 1.87rem;
+  .card-description {
+    font-size: 1rem;
+    line-height: 1.5;
   }
-
-  .timeline li:before {
-    content: "";
-    border: solid 2px;
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 3rem;
-    -moz-border-radius: 3rem;
-    -webkit-border-radius: 3rem;
-    font-size: 0.5rem;
-    margin-left: -2.18rem;
-    font-weight: 400;
-    background: black;
-    display: block;
-    position: absolute;
-    margin-top: 1.12rem;
-    border-color: ${({ theme }) => theme.colors.pink} !important;
+  .card-cta {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: auto;
   }
-
-  .timeline li:first-child i {
-    font-size: 1.25rem;
-    float: left;
-    margin-left: 1.87rem;
-    line-height: 3.12rem;
-    border-radius: 1.87rem;
-    margin: -0.75rem -3.44rem;
-    background: ${({ theme }) => theme.colors.pink};
+  .card:hover .card-cta {
+    background-color: ${({ theme }) => theme.colors.white};
+  }
+  .card:hover .card-title-large {
+    transform: translateX(-115%);
     color: ${({ theme }) => theme.colors.white};
-    width: 3.12rem;
-    height: 3.12rem;
-    text-align: center;
   }
-  @media (min-width: 990px) {
-    #resume {
-      padding-left: 5rem;
-    }
+  .card.scrum:hover,
+  .card.scrum .card-title-small:hover {
+    background-color: #6554c0;
+    color: ${({ theme }) => theme.colors.white};
   }
-  @media (max-width: 800px) {
-    .timeline li span {
-      padding: 0rem 0;
-    }
-    .timeline li .content-text {
-      padding: 1rem 0.5rem 0.5rem 0.8rem;
-    }
-    .timeline li {
-      padding: 0 0rem 1.25rem 1rem;
-      list-style: none;
-      border-left: 3px solid black;
-    }
-    .timeline li:last-child {
-      padding: 0 0rem 1.25rem 1rem;
-    }
+
+  .card.javascript:hover,
+  .card.javascript .card-title-small:hover {
+    background-color: #ead41c;
+    color: ${({ theme }) => theme.colors.white};
+  }
+  .card.react:hover,
+  .card.react .card-title-small:hover {
+    background-color: #5ed3f3;
+    color: ${({ theme }) => theme.colors.white};
+  }
+  .card.github:hover,
+  .card.github .card-title-small:hover {
+    background-color: ${({ theme }) => theme.colors.gray300};
+    color: ${({ theme }) => theme.colors.gray900};
+  }
+  .card.typescript:hover,
+  .card.typescript .card-title-small:hover {
+    background-color: #0074c2;
+    color: ${({ theme }) => theme.colors.white};
+  }
+  .card.html:hover,
+  .card.html .card-title-small:hover {
+    background-color: ${({ theme }) => theme.colors.orange};
+    color: ${({ theme }) => theme.colors.white};
+  }
+  .card.css:hover,
+  .card.css .card-title-small:hover {
+    background-color: #006eb4;
+    color: ${({ theme }) => theme.colors.white};
+  }
+  .card.libs:hover,
+  .card.libs .card-title-small:hover {
+    background-color: #ead41c;
+    color: ${({ theme }) => theme.colors.white};
+  }
+  .card.testes:hover,
+  .card.testes .card-title-small:hover {
+    background-color: #bb3913;
+    color: ${({ theme }) => theme.colors.white};
+  }
+
+  @media (max-width: 50rem) {
+    padding: 1rem;
   }
 `;
 
-export { Section };
+export { Container };
