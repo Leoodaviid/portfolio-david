@@ -133,8 +133,7 @@ export const SidebarStyle = styled.aside`
 `;
 export const ButtonNavStyle = styled.menu`
   .mobileButton {
-    background: ${({ theme }) => theme.colors.gray900};
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9);
+    background: ${({ theme }) => theme.colors.primary};
     color: ${({ theme }) => theme.colors.pink};
     border-radius: 0.2rem;
     height: 40px;
@@ -151,7 +150,7 @@ export const ButtonNavStyle = styled.menu`
   .mobileButton::after {
     content: "";
     display: block;
-    width: 1.2rem;
+    width: 1.5rem;
     height: 2px;
     border-radius: 2px;
     background: currentColor;
@@ -162,7 +161,7 @@ export const ButtonNavStyle = styled.menu`
   .mobileButton:hover,
   .mobileButtonActive {
     outline: none;
-    background: ${({ theme }) => theme.colors.gray900};
+    background: ${({ theme }) => theme.colors.primary};
     color: ${({ theme }) => theme.colors.pink};
   }
   .mobileButtonActive::after {
