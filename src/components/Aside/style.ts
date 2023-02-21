@@ -144,7 +144,7 @@ export const ButtonNavStyle = styled.menu`
     align-items: center;
     justify-content: center;
     border: 1px solid transparent;
-    transition: 0.1s;
+    transition: 0.2s ease;
     cursor: pointer;
   }
   .mobileButton::after {
@@ -155,7 +155,7 @@ export const ButtonNavStyle = styled.menu`
     border-radius: 2px;
     background: currentColor;
     box-shadow: 0 6px currentColor, 0 -6px currentColor;
-    transition: 0.2s;
+    transition: 0.3s ease;
   }
   .mobileButton:focus,
   .mobileButton:hover,
