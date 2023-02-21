@@ -25,6 +25,17 @@ body {
   backface-visibility: hidden;
   overflow-x: hidden;
 }
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: ${({ theme }) => theme.colors.gray900};
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: ${({ theme }) => theme.colors.pink};
+  border-radius: 10px;
+}
 h1, h2, h3, h4 {
   font-size: 38px;
   font-weight: 700;
