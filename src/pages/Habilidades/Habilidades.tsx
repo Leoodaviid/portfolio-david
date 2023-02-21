@@ -6,13 +6,19 @@ const Habilidades = () => {
       <div className="cards">
         <div className="card scrum">
           <h2 className="card-title-large">Scrum</h2>
-          <h3 className="card-title-small">Gama Academy</h3>
+          <h3 className="card-title-small">Dio._</h3>
           <p className="card-description">
-            Com o Git posso ter o controle de versão distribuído e amplamente
-            adotado usando a plataforma GitHub para gerenciar o código e criar
-            um ambiente de colaboração entre nós devs.
+            Onde aprendi a diferenciar o modelo tradicional de trabalho e o dos
+            times ágeis. Aprendi a importância do manifesto Ágil, Scrum e seus
+            rituais, cerimônias, artefatos, como funciona na prática e refinar o
+            backlog.
           </p>
-          <a className="card-cta" href="#">
+          <a
+            className="card-cta"
+            href="https://www.dio.me/certificate/CB3B52EB/share"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             &rarr;
           </a>
         </div>
@@ -37,7 +43,12 @@ const Habilidades = () => {
             sua renderização eficiente de componentes necessários à medida que
             os dados mudam.
           </p>
-          <a className="card-cta" href="#">
+          <a
+            className="card-cta"
+            href="https://www.origamid.com/certificate/af1a39eb"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             &rarr;
           </a>
         </div>
@@ -49,7 +60,12 @@ const Habilidades = () => {
             adotado usando a plataforma GitHub para gerenciar o código e criar
             um ambiente de colaboração entre nós devs.
           </p>
-          <a className="card-cta" href="#">
+          <a
+            className="card-cta"
+            href="https://www.dio.me/certificate/5D9A1F06/share"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             &rarr;
           </a>
         </div>
@@ -61,7 +77,12 @@ const Habilidades = () => {
             manipular dados, criar interfaces, utilizar safe guards e definir o
             tipo correto de cada dado.
           </p>
-          <a className="card-cta" href="#">
+          <a
+            className="card-cta"
+            href="https://gama-academy-main-certificate-service.s3.amazonaws.com/8d5642bc-d6ad-4936-89a0-102f53d1c42b.pdf"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             &rarr;
           </a>
         </div>
@@ -85,7 +106,29 @@ const Habilidades = () => {
             Flexbox e Grid Layout absorvendo assim a forma mais semântica que o
             mercado exige.
           </p>
-          <a className="card-cta" href="#">
+          <a
+            className="card-cta"
+            href="https://gama-academy-main-certificate-service.s3.amazonaws.com/9dd2f5dd-665b-4ddc-bd2c-545dc7f908e6.pdf"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            &rarr;
+          </a>
+        </div>
+        <div className="card bootstrap">
+          <h2 className="card-title-large">Booststrap</h2>
+          <h3 className="card-title-small">Origamid</h3>
+          <p>
+            Onde aprendi a melhorar ainda mais minha produtividade no
+            desenvolvimento Fron-end utilizando os principais components do
+            Framework.
+          </p>
+          <a
+            className="card-cta"
+            href="https://www.origamid.com/certificate/8af258d6"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             &rarr;
           </a>
         </div>
@@ -97,7 +140,12 @@ const Habilidades = () => {
             do seu código, deixando tudo mais claro e limpo, e ganhando
             agilidade no desenvolvimento do trabalho.
           </p>
-          <a className="card-cta" href="#">
+          <a
+            className="card-cta"
+            href="https://gama-academy-main-certificate-service.s3.amazonaws.com/c524eefe-62c1-4d12-9748-f710b57b70cd.pdf"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             &rarr;
           </a>
         </div>
@@ -109,7 +157,12 @@ const Habilidades = () => {
             existem diversos recursos para efetuar os devidos testes e manter a
             qualidade no projeto.
           </p>
-          <a className="card-cta" href="#">
+          <a
+            className="card-cta"
+            href="https://gama-academy-main-certificate-service.s3.amazonaws.com/e5baaeaf-b2bd-499a-83cd-fe514d77125f.pdf"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             &rarr;
           </a>
         </div>
