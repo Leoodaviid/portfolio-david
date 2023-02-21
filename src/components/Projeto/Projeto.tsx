@@ -1,5 +1,7 @@
 import { FaEye, FaLink } from "react-icons/fa";
 import { Container } from "./styles";
+import Image from "../Helper/Image";
+
 interface ProjetoProps {
   img: string;
   alt: string;
@@ -11,7 +13,7 @@ const Projeto = ({ img, alt, preview, repository }: ProjetoProps) => {
     <Container>
       <div className="portfolio-item">
         <div className="shot-item">
-          <img src={img} alt={alt} />
+          <Image src={img} alt={alt} />
           <div className="overlay">
             <div className="icons">
               <a

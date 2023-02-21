@@ -1,7 +1,8 @@
 import { FaRegEnvelope } from "react-icons/fa";
 import { Section } from "./styles";
-import David from "../../assets/images/me.jpg";
 import { Link } from "react-router-dom";
+import David from "../../assets/images/me.jpg";
+import Image from "../../components/Helper/Image";
 
 const Sobre = () => {
   return (
@@ -12,7 +13,7 @@ const Sobre = () => {
             <div className="row">
               <div className="col-md-6 col-md-6 col-sm-12 col-xs-12">
                 <div className="img-thumb">
-                  <img className="img-fluid" src={David} alt="Minha Foto" />
+                  <Image src={David} alt="Minha Foto" />
                 </div>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
