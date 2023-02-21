@@ -9,7 +9,7 @@ export const Section = styled.section`
     margin-top: 2rem;
   }
   .img-thumb {
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     overflow: hidden;
   }
   .img-thumb img {

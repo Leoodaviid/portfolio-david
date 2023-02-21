@@ -6,16 +6,6 @@ const Container = styled.div`
     margin: 0px;
   }
 
-  .portfolio-img {
-    overflow: hidden;
-    display: block;
-    position: relative;
-  }
-
-  .portfolio-img img {
-    width: 100%;
-  }
-
   .shot-item {
     margin-right: 15px;
     border-radius: 0.2rem;
@@ -28,7 +18,7 @@ const Container = styled.div`
     object-fit: cover;
     width: 100%;
     height: 16rem;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
   }
 
   .shot-item .overlay {

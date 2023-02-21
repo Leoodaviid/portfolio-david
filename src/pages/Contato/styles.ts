@@ -83,7 +83,7 @@ const Section = styled.section`
   }
   .map {
     border: 0;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     height: 26.8rem;
     width: 100%;
     transition: all;

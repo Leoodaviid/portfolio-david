@@ -14,12 +14,13 @@ const Container = styled.div`
     color: ${({ theme }) => theme.colors.gray500};
     padding: 1.5rem;
     overflow: hidden;
-    border-radius: 0.8rem;
+    border: none;
+    border-radius: 0.4rem;
   }
   .card-title-large {
     font-size: 3.5rem;
     letter-spacing: 0.5rem;
-    color: ${({ theme }) => theme.colors.gray900};
+    color: ${({ theme }) => theme.colors.black};
     transform: translateX(7rem);
     transition: transform 2.5s;
   }
@@ -49,7 +50,7 @@ const Container = styled.div`
   }
   .card.scrum:hover,
   .card.scrum .card-title-small:hover {
-    background-color: #6554c0;
+    background-color: #7511f6;
     color: ${({ theme }) => theme.colors.white};
   }
 
@@ -81,6 +82,11 @@ const Container = styled.div`
   .card.css:hover,
   .card.css .card-title-small:hover {
     background-color: #006eb4;
+    color: ${({ theme }) => theme.colors.white};
+  }
+  .card.bootstrap:hover,
+  .card.bootstrap .card-title-small:hover {
+    background-color: #7511f6;
     color: ${({ theme }) => theme.colors.white};
   }
   .card.libs:hover,
