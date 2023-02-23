@@ -7,7 +7,11 @@ export const Section = styled.section`
     align-items: center;
     padding-left: 16rem;
   }
+  .text-zone span {
+    display: inline-block;
+  }
   .text-zone h1 {
+    display: inline-block;
     font-size: 5rem;
     line-height: 45px;
     letter-spacing: -3px;

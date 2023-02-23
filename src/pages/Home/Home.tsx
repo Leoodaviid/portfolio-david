@@ -1,17 +1,28 @@
 import { Link } from "react-router-dom";
 import { Section } from "./styles";
+import TextMotion from "./TextMotion";
 
 const Home = () => {
+  const textOne = "Ola,".split("");
+  const textTwo = "sou David,".split("");
+  const textThree = "desenvolvedor web".split("");
+
   return (
     <Section>
       <div className="section-home">
         <div className="text-zone">
           <h1>
-            Olá,
+            {textOne.map((letter, index) => (
+              <TextMotion key={index}>{letter}</TextMotion>
+            ))}
             <br />
-            sou David,
+            {textTwo.map((letter, index) => (
+              <TextMotion key={index}>{letter}</TextMotion>
+            ))}
             <br />
-            desenvolvedor web
+            {textThree.map((letter, index) => (
+              <TextMotion key={index}>{letter}</TextMotion>
+            ))}
           </h1>
           <p className="gray-text">Front End Developer</p>
           <br />
