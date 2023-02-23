@@ -54,18 +54,18 @@ const Container = styled.div`
   }
   .card.scrum:hover,
   .card.scrum .card-title-small:hover {
-    background-color: #7511f6;
+    background-color: ${({ theme }) => theme.colors.purple};
     color: ${({ theme }) => theme.colors.white};
   }
 
   .card.javascript:hover,
   .card.javascript .card-title-small:hover {
-    background-color: #ead41c;
+    background-color: ${({ theme }) => theme.colors.yellow};
     color: ${({ theme }) => theme.colors.white};
   }
   .card.react:hover,
   .card.react .card-title-small:hover {
-    background-color: #5ed3f3;
+    background-color: ${({ theme }) => theme.colors.cyan};
     color: ${({ theme }) => theme.colors.white};
   }
   .card.github:hover,
@@ -75,7 +75,7 @@ const Container = styled.div`
   }
   .card.typescript:hover,
   .card.typescript .card-title-small:hover {
-    background-color: #0074c2;
+    background-color: ${({ theme }) => theme.colors.indigo};
     color: ${({ theme }) => theme.colors.white};
   }
   .card.html:hover,
@@ -85,22 +85,27 @@ const Container = styled.div`
   }
   .card.css:hover,
   .card.css .card-title-small:hover {
-    background-color: #006eb4;
+    background-color: ${({ theme }) => theme.colors.indigo};
     color: ${({ theme }) => theme.colors.white};
   }
   .card.bootstrap:hover,
   .card.bootstrap .card-title-small:hover {
-    background-color: #7511f6;
+    background-color: ${({ theme }) => theme.colors.purple};
+    color: ${({ theme }) => theme.colors.white};
+  }
+  .card.redux:hover,
+  .card.redux .card-title-small:hover {
+    background-color: #7248b6;
     color: ${({ theme }) => theme.colors.white};
   }
   .card.libs:hover,
   .card.libs .card-title-small:hover {
-    background-color: #ead41c;
+    background-color: ${({ theme }) => theme.colors.yellow};
     color: ${({ theme }) => theme.colors.white};
   }
   .card.testes:hover,
   .card.testes .card-title-small:hover {
-    background-color: #bb3913;
+    background-color: ${({ theme }) => theme.colors.brown};
     color: ${({ theme }) => theme.colors.white};
   }
 
