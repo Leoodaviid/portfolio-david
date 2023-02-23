@@ -3,7 +3,7 @@ import { Section } from "./styles";
 import TextMotion from "./TextMotion";
 
 const Home = () => {
-  const textOne = "Ola,".split("");
+  const textOne = "Olá,".split("");
   const textTwo = "sou David,".split("");
   const textThree = "desenvolvedor web".split("");
 
