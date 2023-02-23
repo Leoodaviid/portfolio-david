@@ -150,6 +150,24 @@ const Habilidades = () => {
             &rarr;
           </a>
         </div>
+        <div className="card redux">
+          <h2 className="card-title-large">Redux</h2>
+          <h3 className="card-title-small">Redux - Origamid</h3>
+          <span className="card-title-station">Fev - 2023</span>
+          <p>
+            Onde aprendi no geral que o redux fornece uma maneira escalável e
+            suatentável de generenciar o estado de aplicativos complexos e é
+            amplamente usado no ecossistema react.
+          </p>
+          <a
+            className="card-cta"
+            href="https://www.origamid.com/certificate/9b5c0959"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            &rarr;
+          </a>
+        </div>
         <div className="card libs">
           <h2 className="card-title-large">Libs</h2>
           <h3 className="card-title-small">Libs - Gama Academy</h3>
