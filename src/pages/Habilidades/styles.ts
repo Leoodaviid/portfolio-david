@@ -1,4 +1,15 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const bounce = keyframes`
+0%,100%{
+  transform: translateX(-25%);
+  animation-timing-function: cubic-bezier(0.8,0,1,1);
+}
+50%{
+  transform: translateY(0);
+  animation-timing-function: cubic-bezier(0,0,0.2,1);
+}
+`;
 
 const Container = styled.div`
   max-width: 100%;
@@ -16,6 +27,9 @@ const Container = styled.div`
     overflow: hidden;
     border: none;
     border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .card-title-large {
     font-size: 3.5rem;
@@ -38,15 +52,20 @@ const Container = styled.div`
   }
   .card-cta {
     display: inline-block;
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 50%;
+    background: ${({ theme }) => theme.colors.gray900};
+    color: ${({ theme }) => theme.colors.white};
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.4rem;
     display: grid;
     place-items: center;
     margin-left: auto;
+    animation: ${bounce} 1s infinite;
   }
+
   .card:hover .card-cta {
     background-color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.gray900};
   }
   .card:hover .card-title-large {
     transform: translateX(-115%);
