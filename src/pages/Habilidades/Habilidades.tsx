@@ -6,7 +6,8 @@ const Habilidades = () => {
       <div className="cards">
         <div className="card scrum">
           <h2 className="card-title-large">Scrum</h2>
-          <h3 className="card-title-small">Dio._</h3>
+          <h3 className="card-title-small">Scrum - Dio._</h3>
+          <span className="card-title-station">Mai - 2022</span>
           <p className="card-description">
             Onde aprendi a diferenciar o modelo tradicional de trabalho e o dos
             times ágeis. Aprendi a importância do manifesto Ágil, Scrum e seus
@@ -24,19 +25,26 @@ const Habilidades = () => {
         </div>
         <div className="card javascript">
           <h2 className="card-title-large">JavaScript</h2>
-          <h3 className="card-title-small">Origamid - Udemy</h3>
+          <h3 className="card-title-small">JavaScript - Udemy</h3>
+          <span className="card-title-station">Jul - 2022</span>
           <p className="card-description">
             Do básico ao avançado tendo conhecimentos sólidos e compreensão
             total da linguagem, dos seus principais métodos e da sua sintaxe,
             manipulações do DOM e requisições assíncronas para API.
           </p>
-          <a className="card-cta" href="#">
+          <a
+            className="card-cta"
+            href="https://www.udemy.com/certificate/UC-89aa3a20-1b15-4554-88bc-3621f2b828dd/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             &rarr;
           </a>
         </div>
         <div className="card react">
           <h2 className="card-title-large">React</h2>
-          <h3 className="card-title-small">Origamid - Gama Academy</h3>
+          <h3 className="card-title-small">React - Origamid</h3>
+          <span className="card-title-station">Fev - 2023</span>
           <p className="card-description">
             Onde aprendi todos os "macetes" que a biblioteca proporciona de uma
             maneira simplificada para criação de interfaces Web, utilizando a
@@ -54,7 +62,8 @@ const Habilidades = () => {
         </div>
         <div className="card github">
           <h2 className="card-title-large">Git & GitHub</h2>
-          <h3 className="card-title-small">Dio._ - Gama Academy</h3>
+          <h3 className="card-title-small">Git & GitHub - Dio._</h3>
+          <span className="card-title-station">Mai - 2022</span>
           <p>
             Com o Git posso ter o controle de versão distribuído e amplamente
             adotado usando a plataforma GitHub para gerenciar o código e criar
@@ -71,7 +80,8 @@ const Habilidades = () => {
         </div>
         <div className="card typescript">
           <h2 className="card-title-large">TypeScript</h2>
-          <h3 className="card-title-small">Origamid - Gama Academy</h3>
+          <h3 className="card-title-small">TypeScript - Gama Academy</h3>
+          <span className="card-title-station">Nov - 2022</span>
           <p>
             Onde fiquei sabendo muito mais como o Javascript funciona, aprendi a
             manipular dados, criar interfaces, utilizar safe guards e definir o
@@ -88,19 +98,26 @@ const Habilidades = () => {
         </div>
         <div className="card html">
           <h2 className="card-title-large">Html:5</h2>
-          <h3 className="card-title-small">Origamid - Gama Academy</h3>
+          <h3 className="card-title-small">Html - Dio._</h3>
+          <span className="card-title-station">Mai - 2022</span>
           <p>
             Fundamental para criação de qualquer site, é o bloco de construção
             mais básico da web. Define o significado e a estrutura do conteúdo
             da web.
           </p>
-          <a className="card-cta" href="#">
+          <a
+            className="card-cta"
+            href="https://www.dio.me/certificate/96C073FC/share"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             &rarr;
           </a>
         </div>
         <div className="card css">
           <h2 className="card-title-large">Css</h2>
-          <h3 className="card-title-small">Origamid - Gama Academy</h3>
+          <h3 className="card-title-small">Css - Gama Academy</h3>
+          <span className="card-title-station">Nov - 2022</span>
           <p>
             Usado para descrever a aparência/apresentação e responsividade com
             Flexbox e Grid Layout absorvendo assim a forma mais semântica que o
@@ -117,7 +134,8 @@ const Habilidades = () => {
         </div>
         <div className="card bootstrap">
           <h2 className="card-title-large">Booststrap</h2>
-          <h3 className="card-title-small">Origamid</h3>
+          <h3 className="card-title-small">Bootstrap - Origamid</h3>
+          <span className="card-title-station">Jan - 2023</span>
           <p>
             Onde aprendi a melhorar ainda mais minha produtividade no
             desenvolvimento Fron-end utilizando os principais components do
@@ -134,7 +152,8 @@ const Habilidades = () => {
         </div>
         <div className="card libs">
           <h2 className="card-title-large">Libs</h2>
-          <h3 className="card-title-small">Gama Academy</h3>
+          <h3 className="card-title-small">Libs - Gama Academy</h3>
+          <span className="card-title-station">Nov - 2022</span>
           <p>
             As bibliotecas JavaScript facilitam muito a manutenção e organização
             do seu código, deixando tudo mais claro e limpo, e ganhando
@@ -151,7 +170,8 @@ const Habilidades = () => {
         </div>
         <div className="card testes">
           <h2 className="card-title-large">Testes Aut.</h2>
-          <h3 className="card-title-small">Gama Academy</h3>
+          <h3 className="card-title-small">Testes Aut. - Gama Academy</h3>
+          <span className="card-title-station">Dez - 2022</span>
           <p>
             Com a evolução da comunidade JavaScript, Frameworks e bibliotecas,
             existem diversos recursos para efetuar os devidos testes e manter a
