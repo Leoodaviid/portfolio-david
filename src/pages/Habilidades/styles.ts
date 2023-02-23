@@ -26,7 +26,11 @@ const Container = styled.div`
   }
   .card-title-small {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
+  }
+  .card-title-station {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
   }
   .card-description {
     font-size: 1rem;
