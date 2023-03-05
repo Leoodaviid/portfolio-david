@@ -35,7 +35,7 @@ const Projetos = () => {
         <Projeto
           img={Bikcraft}
           alt={"Interface WebSite Bikcraft."}
-          preview={"bikcraft-leoodaviid.vercel.app"}
+          preview={"https://bikcraft-leoodaviid.vercel.app"}
           repository={"https://github.com/Leoodaviid/bikcraft"}
         />
         <Projeto
