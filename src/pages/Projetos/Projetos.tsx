@@ -1,4 +1,5 @@
 import { Section } from "./styles";
+import Bikcraft from "../../assets/images/bikcraft.png";
 import Agenda from "../../assets/images/beleza-agenda.png";
 import Caravan from "../../assets/images/caravan.png";
 import Dogs from "../../assets/images/dogs.png";
@@ -30,6 +31,12 @@ const Projetos = () => {
           alt={"Interface WebSite Beleza na agenda."}
           preview={"https://agenda-testes.vercel.app/"}
           repository={"https://github.com/Leoodaviid/beleza-na-agenda"}
+        />
+        <Projeto
+          img={Bikcraft}
+          alt={"Interface WebSite Bikcraft."}
+          preview={"bikcraft-leoodaviid.vercel.app"}
+          repository={"https://github.com/Leoodaviid/bikcraft"}
         />
         <Projeto
           img={Caravan}
