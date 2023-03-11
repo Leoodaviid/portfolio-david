@@ -3,6 +3,7 @@ import Bikcraft from "../../assets/images/bikcraft.png";
 import Agenda from "../../assets/images/beleza-agenda.png";
 import Caravan from "../../assets/images/caravan.png";
 import Dogs from "../../assets/images/dogs.png";
+import ApiGitHub from "../../assets/images/api-github.png";
 import Dindin from "../../assets/images/dindin.png";
 import LaParrilla from "../../assets/images/Parrilla-food-commerce.png";
 import Contador from "../../assets/images/contador.png";
@@ -25,6 +26,12 @@ const Projetos = () => {
           alt={"Interface WebSite Dogs."}
           preview={"https://dog-leoodaviid.vercel.app/"}
           repository={"https://github.com/Leoodaviid/dog"}
+        />
+        <Projeto
+          img={ApiGitHub}
+          alt={"Interface WebSite api-gitHub."}
+          preview={"https://api-github-beta.vercel.app"}
+          repository={"https://github.com/Leoodaviid/api-github"}
         />
         <Projeto
           img={Agenda}
