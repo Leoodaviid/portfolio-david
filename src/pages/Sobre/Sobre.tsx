@@ -20,23 +20,20 @@ const Sobre = () => {
                 <div className="profile-wrapper">
                   <h3>Quem sou?</h3>
                   <p>
-                    Apaixonado por tecnologia, meu primeiro contato com a
-                    programação foi em 2013, quando estava concluindo meu ensino
-                    médio. Apesar de ter gostado do universo que a tecnologia
-                    proporcionava, só começei a dar o devido foco no final do
-                    ano de 2021 devido meu pc ter queimado e por questões
-                    financeiras demorei a ter um novo pc que suprisse minhas
-                    necessidades diárias. <br />
-                    Nesse período trabalhava para ajudar em casa e conquistar o
-                    que almejava e ao mesmo tempo tive muito apoio de
-                    familiares, namorada e de um amigo que tenho como irmão,
-                    formado na aréa de TI.
-                    <br />
-                    Hoje possuo total domínio das tecnologias voltadas para o
-                    Front-End, e a cada dia estou me aperfeiçoando e ampliando
-                    meus conhecimentos os tornando mais sólidos e correndo atrás
-                    da tão sonhada imersão pra área de tecnologia como
-                    desenvolvedor.
+                    Sou um profissional que busca sempre aprimorar meus
+                    conhecimentos e contribuir para criar ou evoluir os produtos
+                    e processos das empresas que atuo. Atualmente, tenho mais de
+                    4 anos de experiência como desenvolvedor front-end,
+                    Trabalhei como desenvolvedor Front-End durante 4 anos na
+                    Unijaguaribe. Sempre fui fascinado pelo aspecto dinâmico e
+                    criativo deste campo e estou confiante de que minhas
+                    habilidades e experiência me tornam uma excelente opção para
+                    uma função em qualquer empresa que necessite desse segmento.
+                    Fiz vários cursos de desenvolvimento front-end e tenho
+                    trabalhado em projetos pessoais para desenvolver ainda mais
+                    minhas habilidades. Estou familiarizado com tecnologias como
+                    HTML, CSS, JavaScript, TypeScript e React, e estou ansioso
+                    para aplicar meu conhecimento em um ambiente profissional.
                   </p>
                   <div className="about-profile">
                     <ul className="admin-profile">
