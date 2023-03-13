@@ -1,5 +1,11 @@
-import { FaRegEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaRegEnvelope,
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaFacebookF,
+  FaGithub,
+  FaLinkedinIn,
+} from "react-icons/fa";
 import { Button } from "../../components/Button/styles";
 import { Input } from "../../components/Form/Input";
 import { TextArea } from "../../components/Form/TextArea";
@@ -12,14 +18,22 @@ const Contato = () => {
         <section className="contact-data" aria-label="Endereço">
           <h2>Contato</h2>
           <div className="contact-address">
-            <p>Alameda Eliane Lúcia, 139</p>
-            <p> Apartamento 301 - Cidade 2000</p>
+            <p>
+              <FaMapMarkerAlt />
+              Alameda Eliane Lúcia, 139
+            </p>
+            <p>Apartamento 301 - Cidade 2000</p>
             <p>Fortaleza - CE</p>
           </div>
           <address>
-            <a href="mailto:david_ax7@hotmail.com">david_ax7@hotmail.com</a>
-            <a href="mailto:david_ax7@hotmail.com.com">david_ax7@hotmail.com</a>
-            <a href="tel:+5585997041704">55 85 99704-1704</a>
+            <a href="mailto:david_ax7@hotmail.com.com">
+              <FaRegEnvelope />
+              david_ax7@hotmail.com
+            </a>
+            <a href="tel:+5585997041704">
+              <FaPhoneAlt />
+              +55 85 99704-1704
+            </a>
           </address>
           <div className="contact-social">
             <a
@@ -88,9 +102,10 @@ const Contato = () => {
             />
             <TextArea
               className="col-2"
+              label="Mensagem"
               name="mensagem"
               rows={5}
-              placeholder=" O que você precisa?"
+              placeholder="Sua mensagem"
             />
             <Button className="col-2">Enviar mensagem</Button>
           </Form>
