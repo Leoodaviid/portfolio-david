@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  #about {
+  margin-top: 2rem;
+  height: calc(100% - 77px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 2rem;
   }
   .img-thumb {
@@ -32,6 +34,7 @@ export const Section = styled.section`
     vertical-align: middle;
     margin-right: 0.3rem;
   }
+
   .icon-speech svg {
     width: 17px;
     margin: 0px 0px 2px 5px;
@@ -45,20 +48,26 @@ export const Section = styled.section`
   }
 
   .about-profile .pro-title {
-    font-weight: 700;
-    color: ${({ theme }) => theme.colors.gray300};
+    font: 400 ${({ theme }) => theme.fontSize.lg} / 1.5
+      ${({ theme }) => theme.fontFamily.roboto};
+    color: ${({ theme }) => theme.colors.gray500};
     position: relative;
     width: 120px;
     display: inline-block;
     margin-bottom: 0.3rem;
   }
+  .about-profile .pro-detail {
+    font: 400 ${({ theme }) => theme.fontSize.lg} / 1.5
+      ${({ theme }) => theme.fontFamily.roboto};
+    color: ${({ theme }) => theme.colors.white};
+  }
 
   .about-profile .pro-title:after {
     position: absolute;
     content: ":";
-    color: ${({ theme }) => theme.colors.gray300};
-    font-size: 0.8rem;
-    left: 4.8rem;
+    color: ${({ theme }) => theme.colors.pink};
+    font-size: 1rem;
+    left: 5.8rem;
   }
 
   .about-profile .admin-sign {
@@ -66,9 +75,13 @@ export const Section = styled.section`
     right: 2.8rem;
     bottom: 0.6rem;
   }
-  @media (min-width: 990px) {
-    #about {
-      padding-left: 5rem;
+  @media (max-width: 400px) {
+    .about-profile .pro-title {
+      font-size: ${({ theme }) => theme.fontSize.md};
     }
-  } ;
+
+    .about-profile .pro-detail {
+      font-size: ${({ theme }) => theme.fontSize.md};
+    }
+  }
 `;

@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  .section-home {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    padding-left: 16rem;
-  }
+  margin-top: 2rem;
+  height: calc(100% - 120px);
+  display: flex;
+  align-items: center;
+
   .text-zone span {
     display: inline-block;
   }
@@ -16,6 +15,9 @@ export const Section = styled.section`
     line-height: 45px;
     letter-spacing: -3px;
     position: relative;
+    font-size: 6.3rem;
+    line-height: 85px;
+    letter-spacing: -6px;
   }
   .text-zone h1::before {
     content: "<h1>";
@@ -51,35 +53,46 @@ export const Section = styled.section`
   #section-home {
     padding-left: 11.5rem;
   }
-  .text-zone h1 {
-    font-size: 6.3rem;
-    line-height: 85px;
-    letter-spacing: -6px;
-  }
+
   .text-zone img {
     width: 50px;
     height: 72px;
   }
   .text-zone .gray-text {
-    font-size: 1rem;
+    font: 400 ${({ theme }) => theme.fontSize.lg} / 1.5
+      ${({ theme }) => theme.fontFamily.roboto};
+    color: ${({ theme }) => theme.colors.gray500};
   }
+
   @media (max-width: 1160px) {
-    .section-home {
-      padding-left: 7rem;
-    }
     .text-zone h1 {
-      font-size: 4.5rem;
+      font-size: 5rem;
     }
   }
-  @media screen and (max-width: 800px) {
-    .section-home {
-      padding-left: 1rem;
-      height: 65vh;
-      width: 80vw;
+  @media (max-width: 890px) {
+    .text-zone h1 {
+      font-size: 4rem;
     }
+  }
+
+  @media screen and (max-width: 800px) {
+    align-items: center;
+  }
+  @media (max-width: 620px) {
     .text-zone h1 {
       font-size: 3rem;
-      line-height: 40px;
+    }
+  }
+  @media (max-width: 500px) {
+    .text-zone h1 {
+      font-size: 2.5rem;
+    }
+  }
+  @media (max-width: 400px) {
+    align-items: center;
+    .text-zone h1 {
+      font-size: 2.2rem;
+      line-height: 30px;
     }
   }
 `;

@@ -64,7 +64,7 @@ const Habilidades = () => {
           <h2 className="card-title-large">Git & GitHub</h2>
           <h3 className="card-title-small">Git & GitHub - Dio._</h3>
           <span className="card-title-station">Mai - 2022</span>
-          <p>
+          <p className="card-description">
             Com o Git posso ter o controle de versão distribuído e amplamente
             adotado usando a plataforma GitHub para gerenciar o código e criar
             um ambiente de colaboração entre nós devs.
@@ -82,7 +82,7 @@ const Habilidades = () => {
           <h2 className="card-title-large">TypeScript</h2>
           <h3 className="card-title-small">TypeScript - Gama Academy</h3>
           <span className="card-title-station">Nov - 2022</span>
-          <p>
+          <p className="card-description">
             Onde fiquei sabendo muito mais como o Javascript funciona, aprendi a
             manipular dados, criar interfaces, utilizar safe guards e definir o
             tipo correto de cada dado.
@@ -100,7 +100,7 @@ const Habilidades = () => {
           <h2 className="card-title-large">Html:5</h2>
           <h3 className="card-title-small">Html - Dio._</h3>
           <span className="card-title-station">Mai - 2022</span>
-          <p>
+          <p className="card-description">
             Fundamental para criação de qualquer site, é o bloco de construção
             mais básico da web. Define o significado e a estrutura do conteúdo
             da web.
@@ -118,7 +118,7 @@ const Habilidades = () => {
           <h2 className="card-title-large">Css</h2>
           <h3 className="card-title-small">Css - Gama Academy</h3>
           <span className="card-title-station">Nov - 2022</span>
-          <p>
+          <p className="card-description">
             Usado para descrever a aparência/apresentação e responsividade com
             Flexbox e Grid Layout absorvendo assim a forma mais semântica que o
             mercado exige.
@@ -136,7 +136,7 @@ const Habilidades = () => {
           <h2 className="card-title-large">Booststrap</h2>
           <h3 className="card-title-small">Bootstrap - Origamid</h3>
           <span className="card-title-station">Jan - 2023</span>
-          <p>
+          <p className="card-description">
             Onde aprendi a melhorar ainda mais minha produtividade no
             desenvolvimento Fron-end utilizando os principais components do
             Framework.
@@ -154,7 +154,7 @@ const Habilidades = () => {
           <h2 className="card-title-large">Redux</h2>
           <h3 className="card-title-small">Redux - Origamid</h3>
           <span className="card-title-station">Fev - 2023</span>
-          <p>
+          <p className="card-description">
             Onde aprendi no geral que o redux fornece uma maneira escalável e
             suatentável de generenciar o estado de aplicativos complexos e é
             amplamente usado no ecossistema react.
@@ -172,7 +172,7 @@ const Habilidades = () => {
           <h2 className="card-title-large">Libs</h2>
           <h3 className="card-title-small">Libs - Gama Academy</h3>
           <span className="card-title-station">Nov - 2022</span>
-          <p>
+          <p className="card-description">
             As bibliotecas JavaScript facilitam muito a manutenção e organização
             do seu código, deixando tudo mais claro e limpo, e ganhando
             agilidade no desenvolvimento do trabalho.
@@ -190,7 +190,7 @@ const Habilidades = () => {
           <h2 className="card-title-large">Testes Aut.</h2>
           <h3 className="card-title-small">Testes Aut. - Gama Academy</h3>
           <span className="card-title-station">Dez - 2022</span>
-          <p>
+          <p className="card-description">
             Com a evolução da comunidade JavaScript, Frameworks e bibliotecas,
             existem diversos recursos para efetuar os devidos testes e manter a
             qualidade no projeto.

@@ -13,16 +13,18 @@ const bounce = keyframes`
 
 const Container = styled.div`
   max-width: 100%;
-  padding: 0 1rem 1rem 11%;
-
+  margin-top: 2rem;
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-gap: 1rem;
   }
+
   .card {
-    background: ${({ theme }) => theme.colors.gray800};
-    color: ${({ theme }) => theme.colors.gray500};
+    background: ${({ theme }) => theme.colors.black};
+    font: 400 ${({ theme }) => theme.fontSize["2xl"]} / 1.5
+      ${({ theme }) => theme.fontFamily.roboto};
+    color: ${({ theme }) => theme.colors.gray400};
     padding: 1.5rem;
     overflow: hidden;
     border: none;
@@ -32,9 +34,9 @@ const Container = styled.div`
     justify-content: space-between;
   }
   .card-title-large {
-    font-size: 3.5rem;
-    letter-spacing: 0.5rem;
-    color: ${({ theme }) => theme.colors.black};
+    font: 600 ${({ theme }) => theme.fontSize["4xl"]} / 1.5
+      ${({ theme }) => theme.fontFamily.heading};
+    color: ${({ theme }) => theme.colors.gray700};
     transform: translateX(7rem);
     transition: transform 2.5s;
   }
@@ -47,8 +49,9 @@ const Container = styled.div`
     margin-bottom: 0.5rem;
   }
   .card-description {
-    font-size: 1rem;
-    line-height: 1.5;
+    font: 400 ${({ theme }) => theme.fontSize.md} / 1.5
+      ${({ theme }) => theme.fontFamily.roboto};
+    color: ${({ theme }) => theme.colors.gray500};
   }
   .card-cta {
     display: inline-block;
@@ -60,12 +63,12 @@ const Container = styled.div`
     display: grid;
     place-items: center;
     margin-left: auto;
-    animation: ${bounce} 1s infinite;
   }
 
   .card:hover .card-cta {
     background-color: ${({ theme }) => theme.colors.white};
     color: ${({ theme }) => theme.colors.gray900};
+    animation: ${bounce} 1s infinite;
   }
   .card:hover .card-title-large {
     transform: translateX(-115%);
@@ -126,10 +129,6 @@ const Container = styled.div`
   .card.testes .card-title-small:hover {
     background-color: ${({ theme }) => theme.colors.brown};
     color: ${({ theme }) => theme.colors.white};
-  }
-
-  @media (max-width: 50rem) {
-    padding: 1rem;
   }
 `;
 

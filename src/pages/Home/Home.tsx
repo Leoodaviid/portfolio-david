@@ -9,28 +9,26 @@ const Home = () => {
 
   return (
     <Section>
-      <div className="section-home">
-        <div className="text-zone">
-          <h1>
-            {textOne.map((letter, index) => (
-              <TextMotion key={index}>{letter}</TextMotion>
-            ))}
-            <br />
-            {textTwo.map((letter, index) => (
-              <TextMotion key={index}>{letter}</TextMotion>
-            ))}
-            <br />
-            {textThree.map((letter, index) => (
-              <TextMotion key={index}>{letter}</TextMotion>
-            ))}
-          </h1>
-          <p className="gray-text">Front End Developer</p>
+      <div className="text-zone">
+        <h1>
+          {textOne.map((letter, index) => (
+            <TextMotion key={index}>{letter}</TextMotion>
+          ))}
           <br />
-          <div>
-            <Link to={`/sobre`} className="btn btn-common">
-              Saiba Mais
-            </Link>
-          </div>
+          {textTwo.map((letter, index) => (
+            <TextMotion key={index}>{letter}</TextMotion>
+          ))}
+          <br />
+          {textThree.map((letter, index) => (
+            <TextMotion key={index}>{letter}</TextMotion>
+          ))}
+        </h1>
+        <p className="gray-text">Front End Developer</p>
+        <br />
+        <div>
+          <Link to={`/sobre`} className="btn btn-common">
+            Saiba Mais
+          </Link>
         </div>
       </div>
     </Section>

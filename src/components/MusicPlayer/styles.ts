@@ -37,4 +37,9 @@ export const HeaderStyle = styled.div`
   .on {
     color: ${({ theme }) => theme.colors.secondary};
   }
+  @media (max-width: 720px) {
+    .music {
+      padding: 0.8rem 0;
+    }
+  }
 `;
