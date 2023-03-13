@@ -32,7 +32,7 @@ declare module "styled-components" {
     };
     fontFamily: {
       heading: string;
-      sans: string;
+      roboto: string;
       mono: string;
     };
     fontSize: {
