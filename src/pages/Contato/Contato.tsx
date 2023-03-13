@@ -9,11 +9,13 @@ import {
 import { Button } from "../../components/Button/styles";
 import { Input } from "../../components/Form/Input";
 import { TextArea } from "../../components/Form/TextArea";
+import { UseTitle } from "../../components/Title/useTitle";
 import { Container, Form, Article } from "./styles";
 
 const Contato = () => {
   return (
     <>
+      <UseTitle />
       <Container>
         <section className="contact-data" aria-label="Endereço">
           <h2>Contato</h2>

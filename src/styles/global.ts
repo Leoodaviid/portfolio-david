@@ -32,14 +32,17 @@ textarea,
 button{
   font: 400 1rem 'Roboto', Helvetica, Arial, sans-serif;
 }
+
 h1{
   font: 600 ${({ theme }) => theme.fontSize["5xl"]} / 1.125
     ${({ theme }) => theme.fontFamily.heading};
+    margin: 0;
 }
 p{
   font: 400 ${({ theme }) => theme.fontSize["2xl"]} / 1.5
       ${({ theme }) => theme.fontFamily.roboto};
     color: ${({ theme }) => theme.colors.gray500};
+    margin: 0;
 }
 a{
   color: inherit;
