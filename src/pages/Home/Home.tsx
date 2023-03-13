@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { LinkButton } from "../../components/Button/LinkButton";
 import { Section } from "./styles";
 import TextMotion from "./TextMotion";
 
@@ -26,9 +26,9 @@ const Home = () => {
         <p className="gray-text">Front End Developer</p>
         <br />
         <div>
-          <Link to={`/sobre`} className="btn btn-common">
+          <LinkButton to={`/sobre`} className="btn btn-common">
             Saiba Mais
-          </Link>
+          </LinkButton>
         </div>
       </div>
     </Section>
