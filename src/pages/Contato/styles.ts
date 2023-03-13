@@ -1,8 +1,6 @@
 import styled from "styled-components";
-import { FaRegEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 export const Container = styled.div`
-  margin-top: 2rem;
   display: grid;
   grid-template-columns: 5fr 7fr;
 

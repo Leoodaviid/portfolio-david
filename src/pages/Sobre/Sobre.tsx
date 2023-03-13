@@ -1,9 +1,9 @@
 import { FaRegEnvelope } from "react-icons/fa";
 import { Section } from "./styles";
-import David from "../../assets/images/me.jpg";
-import Image from "../../components/Helper/Image";
 import { LinkButton } from "../../components/Button/LinkButton";
 import { UseTitle } from "../../components/Title/useTitle";
+import David from "../../assets/images/me.jpg";
+import Image from "../../components/Helper/Image";
 
 const Sobre = () => {
   return (

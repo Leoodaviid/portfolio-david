@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  margin-top: 2rem;
   height: calc(100% - 77px);
   display: flex;
   justify-content: center;

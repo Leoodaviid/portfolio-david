@@ -13,7 +13,6 @@ const bounce = keyframes`
 
 const Container = styled.div`
   max-width: 100%;
-  margin-top: 2rem;
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));

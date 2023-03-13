@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
+import { Container, Content } from "./styles";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import MusicPlayer from "../../components/MusicPlayer/MusicPlayer";
-import { Container, Content } from "./styles";
 
 const Main = () => {
   return (

@@ -1,4 +1,5 @@
 import { Section } from "./styles";
+import { UseTitle } from "../../components/Title/useTitle";
 import Bikcraft from "../../assets/images/bikcraft.png";
 import Agenda from "../../assets/images/beleza-agenda.png";
 import Caravan from "../../assets/images/caravan.png";
@@ -10,7 +11,6 @@ import Contador from "../../assets/images/contador.png";
 import Compras from "../../assets/images/lista-compras.png";
 import Media from "../../assets/images/media.png";
 import Projeto from "../../components/Projeto/Projeto";
-import { UseTitle } from "../../components/Title/useTitle";
 
 const Projetos = () => {
   return (
