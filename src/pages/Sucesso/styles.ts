@@ -1,13 +1,18 @@
 import styled from "styled-components";
 
-const MsgStyled = styled.div`
-  .text-zone {
+export const Container = styled.div`
+  height: 85vh;
+  display: flex;
+  align-items: center;
+
+  p {
     font-size: 5rem;
     line-height: 45px;
     letter-spacing: -3px;
+    color: ${({ theme }) => theme.colors.white};
     position: relative;
   }
-  .text-zone::before {
+  p::before {
     content: "<h2>";
     position: absolute;
     top: -80px;
@@ -17,7 +22,7 @@ const MsgStyled = styled.div`
     color: ${({ theme }) => theme.colors.gray600};
     letter-spacing: 3px;
   }
-  .text-zone::after {
+  p::after {
     content: "</h2>";
     position: absolute;
     bottom: -10px;
@@ -27,33 +32,31 @@ const MsgStyled = styled.div`
     color: ${({ theme }) => theme.colors.gray600};
     letter-spacing: 3px;
   }
-  .section-text {
-    height: 85vh;
-    display: flex;
-    align-items: center;
-    padding-left: 20%;
-  }
+
   @media (min-width: 1200px) {
-    .section-text {
-      justify-content: center;
-      padding-left: 0%;
+    justify-content: center;
+  }
+
+  @media (max-width: 950px) {
+    p {
+      font-size: 4rem;
     }
   }
   @media (max-width: 800px) {
-    .text-zone {
+    height: 65vh;
+    p {
       font-size: 3rem;
       line-height: 40px;
     }
-    .section-text {
-      padding-left: 5%;
-      height: 65vh;
+  }
+  @media (max-width: 600px) {
+    p {
+      font-size: 2.5rem;
     }
   }
   @media (max-width: 400px) {
-    .text-zone::after {
-      right: 0px;
+    p::after {
+      right: 0;
     }
   }
 `;
-
-export { MsgStyled };

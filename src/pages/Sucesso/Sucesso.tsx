@@ -1,11 +1,10 @@
-import React from "react";
-import MsgSucesso from "../../components/MsgSucesso/MsgSucesso";
+import { Container } from "./styles";
 
 const Sucesso = () => {
   return (
-    <>
-      <MsgSucesso />
-    </>
+    <Container>
+      <p className="text-zone">Obrigado pelo Contato!</p>
+    </Container>
   );
 };
 

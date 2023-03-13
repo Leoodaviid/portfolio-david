@@ -6,6 +6,7 @@ export const Div = styled.div`
     font: 400 ${({ theme }) => theme.fontSize.base} / 1.5
       ${({ theme }) => theme.fontFamily.heading};
     margin-bottom: 0.25rem;
+    color: ${({ theme }) => theme.colors.black};
   }
   input[type="text"],
   input[type="email"],

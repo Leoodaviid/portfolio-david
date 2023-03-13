@@ -5,16 +5,16 @@ export const HeaderStyle = styled.div`
     display: flex;
     justify-content: end;
     z-index: 2;
-    padding: 0.8rem;
   }
   #sound {
     padding: 0.3rem 1rem;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 1.9);
+    background-color: ${({ theme }) => theme.colors.black};
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: ${({ theme }) => theme.colors.gray300};
+    color: ${({ theme }) => theme.colors.white};
   }
   .soundCloud {
     font-size: 1.2rem;

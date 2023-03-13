@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FaRegEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 export const Container = styled.div`
   margin-top: 2rem;
@@ -12,9 +13,6 @@ export const Container = styled.div`
   }
   .contact-data {
     background: ${({ theme }) => theme.colors.black};
-    font: 400 ${({ theme }) => theme.fontSize.base} / 1.5
-      ${({ theme }) => theme.fontFamily.heading};
-    color: ${({ theme }) => theme.colors.gray500};
     border-radius: 5px 0 0 5px;
   }
   .contact-form {
@@ -30,31 +28,50 @@ export const Container = styled.div`
   }
   .contact-address {
     margin-bottom: 2rem;
-    padding-left: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
   }
   .contact-address p {
+    font: 400 ${({ theme }) => theme.fontSize.lg} / 1.5
+      ${({ theme }) => theme.fontFamily.heading};
+    color: ${({ theme }) => theme.colors.gray500};
     margin-bottom: 0.5rem;
+    padding-left: 1.75rem;
+  }
+  .contact-address p > svg {
+    color: ${({ theme }) => theme.colors.pink};
+  }
+  .contact-address p:first-child {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
   address a {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     max-width: max-content;
     font: 400 ${({ theme }) => theme.fontSize.base} / 1.5
       ${({ theme }) => theme.fontFamily.heading};
     color: ${({ theme }) => theme.colors.white};
     margin-bottom: 0.5rem;
-    padding-left: 1.75rem;
+  }
+  address a > svg {
+    width: 18px;
+    height: 18px;
+    color: ${({ theme }) => theme.colors.pink};
   }
   address a:hover {
     color: ${({ theme }) => theme.colors.pink};
   }
-  address a:first-child {
-  }
+
   address a:nth-child(2) {
     margin-bottom: 2rem;
   }
-  address a:nth-child(3) {
-    margin-bottom: 3.75rem;
-  }
+
   .contact-social {
     display: flex;
     justify-content: space-between;
