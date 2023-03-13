@@ -17,11 +17,9 @@ const Contato = () => {
             <p>Fortaleza - CE</p>
           </div>
           <address>
-            <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
-            <a href="mailto:assistencia@bikcraft.com">
-              assistencia@bikcraft.com
-            </a>
-            <a href="tel:+5585999999999">55 85 99999-9999</a>
+            <a href="mailto:david_ax7@hotmail.com">david_ax7@hotmail.com</a>
+            <a href="mailto:david_ax7@hotmail.com.com">david_ax7@hotmail.com</a>
+            <a href="tel:+5585997041704">55 85 99704-1704</a>
           </address>
           <div className="contact-social">
             <a
@@ -59,7 +57,16 @@ const Contato = () => {
           </div>
         </section>
         <section className="contact-form" aria-label="Formulário">
-          <Form>
+          <Form
+            action="https://formsubmit.co/david_ax7@hotmail.com"
+            method="POST"
+          >
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://portfolio-david-pi.vercel.app/sucesso"
+            />
             <Input
               label="Nome"
               type="text"
