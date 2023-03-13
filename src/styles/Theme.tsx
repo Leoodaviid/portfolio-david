@@ -36,8 +36,8 @@ export const theme: DefaultTheme = {
     secondary: "#08fdd8",
   },
   fontFamily: {
-    heading: ["IBM Plex Sans", "sans-serif"].join(","),
-    sans: ["Open Sans", "Arial", "Helvetica", "sans-serif"].join(","),
+    heading: ["Poppins", "sans-serif"].join(","),
+    roboto: ["Roboto", "Arial", "Helvetica", "sans-serif"].join(","),
     mono: ["IBM Plex Mono", "serif"].join(","),
   },
   fontSize: {
