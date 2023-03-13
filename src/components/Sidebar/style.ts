@@ -85,6 +85,10 @@ export const Container = styled.aside<ContainerProps>`
         align-items: center;
         gap: 2rem;
 
+        &:hover {
+          color: ${({ theme }) => theme.colors.pink};
+        }
+
         svg {
           fill: ${({ theme }) => theme.colors.white};
           width: 3rem;
