@@ -5,7 +5,7 @@ import TextMotion from "./TextMotion";
 const Home = () => {
   const textOne = "Olá,".split("");
   const textTwo = "sou David,".split("");
-  const textThree = "desenvolvedor web".split("");
+  const textThree = "desenvolvedor Web.".split("");
 
   return (
     <Section>

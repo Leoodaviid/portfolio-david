@@ -99,7 +99,7 @@ export const Section = styled.section`
   @media (max-width: 350px) {
     align-items: center;
     .text-zone h1 {
-      letter-spacing: -2px;
+      letter-spacing: -1px;
       font-size: 1.6rem;
       line-height: 30px;
     }
