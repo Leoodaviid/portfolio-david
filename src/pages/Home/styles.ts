@@ -91,7 +91,16 @@ export const Section = styled.section`
   @media (max-width: 400px) {
     align-items: center;
     .text-zone h1 {
-      font-size: 2.2rem;
+      letter-spacing: -2px;
+      font-size: 2rem;
+      line-height: 30px;
+    }
+  }
+  @media (max-width: 350px) {
+    align-items: center;
+    .text-zone h1 {
+      letter-spacing: -2px;
+      font-size: 1.6rem;
       line-height: 30px;
     }
   }
