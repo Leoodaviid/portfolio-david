@@ -10,6 +10,7 @@ import Dindin from "../../assets/images/dindin.png";
 import LaParrilla from "../../assets/images/Parrilla-food-commerce.png";
 import Contador from "../../assets/images/contador.png";
 import Compras from "../../assets/images/lista-compras.png";
+import PingPong from "../../assets/images/ping-pong.png";
 import Media from "../../assets/images/media.png";
 import Projeto from "../../components/Projeto/Projeto";
 
@@ -70,6 +71,12 @@ const Projetos = () => {
             alt={"Interface lista de compras."}
             preview={"https://leoodaviid.github.io/Lista-Compras/"}
             repository={"https://github.com/Leoodaviid/Lista-Compras"}
+          />
+          <Projeto
+            img={PingPong}
+            alt={"Interface jogo ping-pong"}
+            preview={"https://leoodaviid.github.io/ping-pong/"}
+            repository={"https://github.com/Leoodaviid/ping-pong"}
           />
           <Projeto
             img={Contador}
