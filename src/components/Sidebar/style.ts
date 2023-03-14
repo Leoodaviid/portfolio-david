@@ -97,8 +97,8 @@ export const Container = styled.aside<ContainerProps>`
         }
 
         span {
-          font-size: ${({ theme }) => theme.fontSize.lg};
-          font-weight: 500;
+          font: 400 ${({ theme }) => theme.fontSize.lg} / 1.125
+            ${({ theme }) => theme.fontFamily.roboto};
           transition: color 0.3s;
         }
 
