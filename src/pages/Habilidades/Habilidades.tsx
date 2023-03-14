@@ -1,9 +1,14 @@
 import { Container } from "./styles";
 import { UseTitle } from "../../components/Title/useTitle";
+import { Head } from "../../components/Head/Head";
 
 const Habilidades = () => {
   return (
     <>
+      <Head
+        title="Habilidades - Desenvolvedor Web Front-end"
+        description="Descubra as habilidades de Leonardo David, um desenvolvedor web com experiência em front-end e UX design. Saiba mais sobre suas competências técnicas e sua abordagem para o desenvolvimento de projetos web."
+      />
       <UseTitle />
       <Container>
         <div className="cards">

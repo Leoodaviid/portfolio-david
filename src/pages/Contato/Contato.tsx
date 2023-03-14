@@ -9,12 +9,17 @@ import {
 import { Button } from "../../components/Button/styles";
 import { Input } from "../../components/Form/Input";
 import { TextArea } from "../../components/Form/TextArea";
+import { Head } from "../../components/Head/Head";
 import { UseTitle } from "../../components/Title/useTitle";
 import { Container, Form, Article } from "./styles";
 
 const Contato = () => {
   return (
     <>
+      <Head
+        title="Contato - Desenvolvedor Web Front-end"
+        description="Entre em contato com Leonardo David, um desenvolvedor com habilidades em front-end. Preencha o formulário de contato e saiba mais sobre como podemos trabalhar juntos."
+      />
       <UseTitle />
       <Container>
         <section className="contact-data" aria-label="Endereço">

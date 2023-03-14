@@ -1,5 +1,6 @@
 import { Section } from "./styles";
 import { UseTitle } from "../../components/Title/useTitle";
+import { Head } from "../../components/Head/Head";
 import Bikcraft from "../../assets/images/bikcraft.png";
 import Agenda from "../../assets/images/beleza-agenda.png";
 import Caravan from "../../assets/images/caravan.png";
@@ -15,6 +16,10 @@ import Projeto from "../../components/Projeto/Projeto";
 const Projetos = () => {
   return (
     <>
+      <Head
+        title="Projetos - Desenvolvedor Web Front-end"
+        description="Veja os projetos de Leonardo David, um desenvolvedor web com diversas habilidades em front-end. Conheça seus projetos mais recentes e saiba mais sobre as tecnologias utilizadas."
+      />
       <UseTitle />
       <Section>
         <div className="portfolio">

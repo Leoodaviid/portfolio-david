@@ -4,10 +4,15 @@ import { LinkButton } from "../../components/Button/LinkButton";
 import { UseTitle } from "../../components/Title/useTitle";
 import David from "../../assets/images/me.jpg";
 import Image from "../../components/Helper/Image";
+import { Head } from "../../components/Head/Head";
 
 const Sobre = () => {
   return (
     <>
+      <Head
+        title="Sobre - Desenvolvedor Web Criativo e Apaixonado por Tecnologia"
+        description="Conheça Leonardo David, um desenvolvedor web apaixonado por tecnologia, com habilidades em front-end. Descubra mais sobre sua jornada profissional, projetos e interesses."
+      />
       <UseTitle />
       <Section>
         <div className="container">
