@@ -26,6 +26,16 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.colors.gray500};
     margin-bottom: 0.25rem;
   }
+  p::before {
+    content: "";
+    display: inline-block;
+    height: 0.3rem;
+    width: 0.75rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+    background-color: ${({ theme }) => theme.colors.pink};
+    transition: width 0.2s;
+  }
 
   @media (max-width: 800px) {
     padding: 2.5rem 0 2.5rem 0;
