@@ -27,9 +27,9 @@ const Contato = () => {
           <div className="contact-address">
             <p>
               <FaMapMarkerAlt />
-              Alameda Eliane Lúcia, 139
+              Alameda Eliane Lúcia, 139 - Cidade 2000
             </p>
-            <p>Apartamento 301 - Cidade 2000</p>
+            <p>Apartamento 301</p>
             <p>Fortaleza - CE</p>
           </div>
           <address>
