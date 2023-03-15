@@ -28,17 +28,16 @@ const Sobre = () => {
                   Sou um profissional que busca sempre aprimorar meus
                   conhecimentos e contribuir para criar ou evoluir os produtos e
                   processos das empresas que atuo. Atualmente, tenho mais de 4
-                  anos de experiência como desenvolvedor front-end, Trabalhei
-                  como desenvolvedor Front-End durante 4 anos na Unijaguaribe.
-                  Sempre fui fascinado pelo aspecto dinâmico e criativo deste
-                  campo e estou confiante de que minhas habilidades e
-                  experiência me tornam uma excelente opção para uma função em
-                  qualquer empresa que necessite desse segmento. Fiz vários
-                  cursos de desenvolvimento front-end e tenho trabalhado em
-                  projetos pessoais para desenvolver ainda mais minhas
-                  habilidades. Estou familiarizado com tecnologias como HTML,
-                  CSS, JavaScript, TypeScript e React, e estou ansioso para
-                  aplicar meu conhecimento em um ambiente profissional.
+                  anos de experiência como desenvolvedor front-end. Sempre fui
+                  fascinado pelo aspecto dinâmico e criativo deste campo e estou
+                  confiante de que minhas habilidades e experiência me tornam
+                  uma excelente opção para uma função em qualquer empresa que
+                  necessite. Fiz vários cursos de desenvolvimento front-end e
+                  tenho trabalhado em projetos pessoais para desenvolver ainda
+                  mais minhas habilidades. Estou familiarizado com tecnologias
+                  como HTML, CSS, JavaScript, TypeScript e React, e estou
+                  ansioso para aplicar meu conhecimento em um ambiente
+                  profissional.
                 </p>
                 <div className="about-profile">
                   <ul className="admin-profile">
