@@ -20,7 +20,7 @@ export const Ability = ({
       <h3>{`${name} - ${station}`}</h3>
       <span>{emission}</span>
       <p>{description}</p>
-      <a className="card-cta" href={link} target={"_blank"} rel="noreferrer">
+      <a href={link} target={"_blank"} rel="noreferrer">
         &rarr;
       </a>
     </Container>

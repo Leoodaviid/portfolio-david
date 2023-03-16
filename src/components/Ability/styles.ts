@@ -10,10 +10,12 @@ const bounce = keyframes`
   animation-timing-function: cubic-bezier(0,0,0.2,1);
 }
 `;
+
 interface ContainerProps {
   name?: string;
   color?: string;
 }
+
 export const Container = styled.div<ContainerProps>`
   background: ${({ theme }) => theme.colors.black};
   font: 400 ${({ theme }) => theme.fontSize["2xl"]} / 1.5
