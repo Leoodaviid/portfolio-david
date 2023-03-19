@@ -5,6 +5,7 @@ import Bikcraft from "../../assets/images/bikcraft.png";
 import Agenda from "../../assets/images/beleza-agenda.png";
 import Caravan from "../../assets/images/caravan.png";
 import Dogs from "../../assets/images/dogs.png";
+import Climate from "../../assets/images/climate.png";
 import ApiGitHub from "../../assets/images/api-github.png";
 import Dindin from "../../assets/images/dindin.png";
 import LaParrilla from "../../assets/images/Parrilla-food-commerce.png";
@@ -31,16 +32,22 @@ const Projetos = () => {
             repository={"https://github.com/Leoodaviid/laparrilla"}
           />
           <Projeto
-            img={Dogs}
-            alt={"Interface WebSite Dogs."}
-            preview={"https://dog-leoodaviid.vercel.app/"}
-            repository={"https://github.com/Leoodaviid/dog"}
-          />
-          <Projeto
             img={ApiGitHub}
             alt={"Interface WebSite api-gitHub."}
             preview={"https://api-github-beta.vercel.app"}
             repository={"https://github.com/Leoodaviid/api-github"}
+          />
+          <Projeto
+            img={Climate}
+            alt={"Interface WebSite climate - previsão de tempo"}
+            preview={"https://climate-zeta.vercel.app/"}
+            repository={"https://github.com/Leoodaviid/climate"}
+          />
+          <Projeto
+            img={Dogs}
+            alt={"Interface WebSite Dogs."}
+            preview={"https://dog-leoodaviid.vercel.app/"}
+            repository={"https://github.com/Leoodaviid/dog"}
           />
           <Projeto
             img={Agenda}
