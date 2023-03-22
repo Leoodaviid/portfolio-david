@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 
-const Sucesso = () => {
+const Success = () => {
   return (
     <Container>
       <p className="text-zone">Obrigado pelo Contato!</p>
@@ -8,4 +8,4 @@ const Sucesso = () => {
   );
 };
 
-export default Sucesso;
+export default Success;

@@ -2,7 +2,7 @@ import { Section } from "./styles";
 import { UseTitle } from "../../components/Title/useTitle";
 import { Head } from "../../components/Head/Head";
 import { projectsData } from "../../data/projectsData";
-import Projeto from "../../components/Projeto/Projeto";
+import { Project } from "../../components/Project/Project";
 
 const Projects = () => {
   return (
@@ -15,7 +15,7 @@ const Projects = () => {
       <Section>
         <div className="portfolio">
           {projectsData.map(({ id, img, alt, preview, repository }) => (
-            <Projeto
+            <Project
               key={id}
               img={img}
               alt={alt}

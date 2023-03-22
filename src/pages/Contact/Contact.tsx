@@ -13,7 +13,7 @@ import { Head } from "../../components/Head/Head";
 import { UseTitle } from "../../components/Title/useTitle";
 import { Container, Form, Article } from "./styles";
 
-const Contato = () => {
+const Contact = () => {
   return (
     <>
       <Head
@@ -131,4 +131,4 @@ const Contato = () => {
   );
 };
 
-export default Contato;
+export default Contact;

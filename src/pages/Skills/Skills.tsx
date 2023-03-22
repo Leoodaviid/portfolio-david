@@ -3,7 +3,7 @@ import { Ability } from "../../components/Ability/Ability";
 import { UseTitle } from "../../components/Title/useTitle";
 import { Head } from "../../components/Head/Head";
 
-const Habilidades = () => {
+const Skills = () => {
   return (
     <>
       <Head
@@ -127,4 +127,4 @@ const Habilidades = () => {
   );
 };
 
-export default Habilidades;
+export default Skills;

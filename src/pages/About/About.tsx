@@ -6,7 +6,7 @@ import David from "../../assets/images/me.jpg";
 import Image from "../../components/Helper/Image";
 import { Head } from "../../components/Head/Head";
 
-const Sobre = () => {
+const About = () => {
   return (
     <>
       <Head
@@ -82,4 +82,4 @@ const Sobre = () => {
   );
 };
 
-export default Sobre;
+export default About;

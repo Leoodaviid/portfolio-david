@@ -2,13 +2,13 @@ import { FaEye, FaLink } from "react-icons/fa";
 import { Container } from "./styles";
 import Image from "../Helper/Image";
 
-interface ProjetoProps {
+interface ProjectProps {
   img: string;
   alt: string;
   preview: string;
   repository: string;
 }
-const Projeto = ({ img, alt, preview, repository }: ProjetoProps) => {
+export const Project = ({ img, alt, preview, repository }: ProjectProps) => {
   return (
     <Container>
       <div className="portfolio-item">
@@ -43,5 +43,3 @@ const Projeto = ({ img, alt, preview, repository }: ProjetoProps) => {
     </Container>
   );
 };
-
-export default Projeto;
