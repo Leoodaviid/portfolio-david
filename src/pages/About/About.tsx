@@ -21,6 +21,7 @@ const About = () => {
           variants={staggerContainer()}
           initial="hidden"
           whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
           className="container"
         >
           <div className="row">
@@ -63,7 +64,7 @@ const About = () => {
                 </motion.p>
                 <motion.div
                   variants={fadeIn({
-                    direction: "left",
+                    direction: "up",
                     type: "tween",
                     delay: 0.25,
                     duration: 1,
