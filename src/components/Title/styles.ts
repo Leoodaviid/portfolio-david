@@ -43,9 +43,7 @@ export const Container = styled.div`
       font-size: 1rem;
     }
     p::before {
-      height: 0.2rem;
-      margin-right: 0.2rem;
-      margin-bottom: 0.3rem;
+      display: none;
     }
   }
 `;

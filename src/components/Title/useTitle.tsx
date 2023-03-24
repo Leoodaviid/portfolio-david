@@ -1,14 +1,9 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Container } from "./styles";
-import { MyTitle } from "./MyTitle";
+import { MyTitle, TypingText } from "./MyTitle";
 import { motion } from "framer-motion";
-import {
-  textContainer,
-  textVariant2,
-  fadeIn,
-  staggerContainer,
-} from "../../utils/motion";
+import { fadeIn, staggerContainer } from "../../utils/motion";
 
 export const UseTitle = () => {
   const [title, setTitle] = useState<string>("");
@@ -51,15 +46,8 @@ export const UseTitle = () => {
         variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
       >
-        <motion.p variants={textContainer}>
-          {Array.from(subTitle).map((letter, index) => (
-            <motion.span variants={textVariant2} key={index}>
-              {letter === " " ? "\u00A0" : letter}
-            </motion.span>
-          ))}
-        </motion.p>
+        <TypingText subtitle={subTitle} />
         <MyTitle>
           <motion.div
             variants={fadeIn({

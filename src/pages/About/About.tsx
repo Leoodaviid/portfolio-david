@@ -15,15 +15,14 @@ const About = () => {
         title="Sobre - Desenvolvedor Web Criativo e Apaixonado por Tecnologia"
         description="Conheça Leonardo David, um desenvolvedor web apaixonado por tecnologia, com habilidades em front-end. Descubra mais sobre sua jornada profissional, projetos e interesses."
       />
-      <UseTitle />
       <Section>
         <motion.div
           variants={staggerContainer()}
           initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          animate="show"
           className="container"
         >
+          <UseTitle />
           <div className="row">
             <div className="col-md-6 col-md-6 col-sm-12 col-xs-12">
               <motion.div
