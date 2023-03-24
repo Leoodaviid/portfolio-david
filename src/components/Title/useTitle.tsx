@@ -2,6 +2,13 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Container } from "./styles";
 import { MyTitle } from "./MyTitle";
+import { motion } from "framer-motion";
+import {
+  textContainer,
+  textVariant2,
+  fadeIn,
+  staggerContainer,
+} from "../../utils/motion";
 
 export const UseTitle = () => {
   const [title, setTitle] = useState<string>("");
@@ -40,11 +47,33 @@ export const UseTitle = () => {
 
   return (
     <Container>
-      <p>{subTitle}</p>
-      <MyTitle>
-        {title}
-        <span>{accentuation}</span>
-      </MyTitle>
+      <motion.div
+        variants={staggerContainer()}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+      >
+        <motion.p variants={textContainer}>
+          {Array.from(subTitle).map((letter, index) => (
+            <motion.span variants={textVariant2} key={index}>
+              {letter === " " ? "\u00A0" : letter}
+            </motion.span>
+          ))}
+        </motion.p>
+        <MyTitle>
+          <motion.div
+            variants={fadeIn({
+              direction: "right",
+              type: "tween",
+              delay: 0.25,
+              duration: 1.5,
+            })}
+          >
+            {title}
+            <span>{accentuation}</span>
+          </motion.div>
+        </MyTitle>
+      </motion.div>
     </Container>
   );
 };
