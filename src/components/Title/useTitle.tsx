@@ -65,8 +65,8 @@ export const UseTitle = () => {
             variants={fadeIn({
               direction: "right",
               type: "tween",
-              delay: 0.25,
-              duration: 1.5,
+              delay: 0.2,
+              duration: 1,
             })}
           >
             {title}
