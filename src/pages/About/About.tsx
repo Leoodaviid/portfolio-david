@@ -2,9 +2,11 @@ import { FaRegEnvelope } from "react-icons/fa";
 import { Section } from "./styles";
 import { LinkButton } from "../../components/Button/LinkButton";
 import { UseTitle } from "../../components/Title/useTitle";
+import { Head } from "../../components/Head/Head";
+import { motion } from "framer-motion";
+import { staggerContainer, fadeIn } from "../../utils/motion";
 import David from "../../assets/images/me.jpg";
 import Image from "../../components/Helper/Image";
-import { Head } from "../../components/Head/Head";
 
 const About = () => {
   return (
@@ -15,16 +17,37 @@ const About = () => {
       />
       <UseTitle />
       <Section>
-        <div className="container">
+        <motion.div
+          variants={staggerContainer()}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
+          className="container"
+        >
           <div className="row">
             <div className="col-md-6 col-md-6 col-sm-12 col-xs-12">
-              <div className="img-thumb">
+              <motion.div
+                variants={fadeIn({
+                  direction: "right",
+                  type: "tween",
+                  delay: 0.25,
+                  duration: 1,
+                })}
+                className="img-thumb"
+              >
                 <Image src={David} alt="Minha Foto" />
-              </div>
+              </motion.div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="profile-wrapper">
-                <p>
+                <motion.p
+                  variants={fadeIn({
+                    direction: "left",
+                    type: "tween",
+                    delay: 0.25,
+                    duration: 1,
+                  })}
+                >
                   Sou um profissional que busca sempre aprimorar meus
                   conhecimentos e contribuir para criar ou evoluir os produtos e
                   processos das empresas que atuo. Atualmente, tenho mais de 4
@@ -38,8 +61,16 @@ const About = () => {
                   como HTML, CSS, JavaScript, TypeScript e React, e estou
                   ansioso para aplicar meu conhecimento em um ambiente
                   profissional.
-                </p>
-                <div className="about-profile">
+                </motion.p>
+                <motion.div
+                  variants={fadeIn({
+                    direction: "up",
+                    type: "tween",
+                    delay: 0.25,
+                    duration: 1,
+                  })}
+                  className="about-profile"
+                >
                   <ul className="admin-profile">
                     <li>
                       <span className="pro-title"> Nome </span>{" "}
@@ -66,7 +97,7 @@ const About = () => {
                       <span className="pro-detail">+55 (88) 9.9704-1704</span>
                     </li>
                   </ul>
-                </div>
+                </motion.div>
                 <LinkButton to={`/contato`} className="btn btn-common">
                   Entre em Contato
                   <i className="icon-speech">
@@ -76,7 +107,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </Section>
     </>
   );
