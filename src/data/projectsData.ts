@@ -1,7 +1,6 @@
 import LaParrilla from "../assets/images/Parrilla-food-commerce.png";
 import Bikcraft from "../assets/images/bikcraft.png";
 import Agenda from "../assets/images/beleza-agenda.png";
-import Metaverse from "../assets/images/metaverse.png";
 import Caravan from "../assets/images/caravan.png";
 import Dogs from "../assets/images/dogs.png";
 import Climate from "../assets/images/climate.png";
@@ -51,55 +50,48 @@ export const projectsData = [
   },
   {
     id: 6,
-    img: Metaverse,
-    alt: "Interface WebSite metaverse.",
-    preview: "https://metaversus-leoodaviid.vercel.app/",
-    repository: "https://github.com/Leoodaviid/metaversus",
-  },
-  {
-    id: 7,
     img: Bikcraft,
     alt: "Interface WebSite Bikcraft.",
     preview: "https://bikcraft-leoodaviid.vercel.app",
     repository: "https://github.com/Leoodaviid/bikcraft",
   },
   {
-    id: 8,
+    id: 7,
     img: Caravan,
     alt: "Interface WebSite Caravan",
     preview: "https://leoodaviid.github.io/Caravan/",
     repository: "https://github.com/Leoodaviid/Caravan",
   },
   {
-    id: 9,
+    id: 8,
     img: Dindin,
     alt: "Interface WebSite Dindin",
     preview: "https://leoodaviid.github.io/DinDin/",
     repository: "https://github.com/Leoodaviid/DinDin",
   },
   {
-    id: 10,
+    id: 9,
     img: Compras,
     alt: "Interface lista de compras.",
     preview: "https://leoodaviid.github.io/Lista-Compras/",
     repository: "https://github.com/Leoodaviid/Lista-Compras",
   },
   {
-    id: 11,
+    id: 10,
     img: PingPong,
     alt: "Interface jogo ping-pong",
     preview: "https://leoodaviid.github.io/ping-pong/",
     repository: "https://github.com/Leoodaviid/ping-pong",
   },
   {
-    id: 12,
+    id: 11,
     img: Contador,
     alt: "Interface contador.",
     preview: "https://leoodaviid.github.io/Mini-Projeto-Contador/",
     repository: "https://github.com/Leoodaviid/Mini-Projeto-Contador",
   },
   {
-    id: 13,
+    id: 12,
     img: Media,
     alt: "Interface media simples aritmetica.",
     preview: "https://leoodaviid.github.io/calculo-simples-aritimetica/",
