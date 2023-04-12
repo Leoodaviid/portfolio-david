@@ -17,7 +17,7 @@ export const projectsData = [
     id: 1,
     img: Phanox,
     alt: "Interface website ecommerce Phanox.",
-    preview: "https://ecommerce-phanox-tan.vercel.app",
+    preview: "https://phanox-ecommerce-nine.vercel.app",
     repository: "https://github.com/Leoodaviid/phanox-ecommerce",
   },
   {
